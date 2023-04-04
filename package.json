@@ -17,7 +17,7 @@
         "lodash": "4.17.21",
         "material-icons": "1.13.4",
         "mdb-ui-kit": "5.0.0",
-        "passport": "^0.5.3",
+        "passport": "^0.6.0",
         "querystring": "0.2.1",
         "request": "2.88.2",
         "ui-bootstrap4": "3.0.7"
