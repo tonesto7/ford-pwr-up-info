@@ -1,3 +1,4 @@
+// Defines the main angular site instancelet authenticated = false;
 let mainApp = angular.module("mainApp", ["ui.bootstrap"]);
 
 $(window).on("load", () => {
@@ -15,19 +16,26 @@ $(window).on("load", () => {
 });
 
 mainApp.service("GetPwrUpData", [
-    "$rootScope",
-    function ($rootScope) {
+    "$http",
+    function ($http) {
         this.LoadData = async () => {
-            return { data: "test" };
+            try {
+                return (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/data.json")).data;
+            } catch (err) {
+                console.log(`LoadData Exception: `, err);
+                return null;
+            }
         };
     },
 ]);
 
 mainApp.controller("PwrUpInfoController", [
-    "$rootscope",
+    "$rootScope",
     "$scope",
     "GetPwrUpData",
-    function ($rootScope, $scope, GetPwrUpData) {
-        $scope.pwrUpData = GetPwrUpData.LoadData();
+    async function ($rootScope, $scope, GetPwrUpData) {
+        $scope.pwrUpData = await GetPwrUpData.LoadData();
+        console.log("pwrUpData: ", $scope.pwrUpData);
+        $scope.$apply();
     },
 ]);

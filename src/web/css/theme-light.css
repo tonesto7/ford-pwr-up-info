@@ -250,3 +250,18 @@ pre.good {
     color: #ffffff !important;
     border-color: #003478;
 }
+
+.badge-model-tags {
+    background-color: #212529b3 !important;
+    color: white !important;
+}
+
+.badge-modelyear-tags {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+.badge-modulesupd-tags {
+    background-color: green !important;
+    color: white !important;
+}

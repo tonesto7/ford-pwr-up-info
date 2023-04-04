@@ -30,9 +30,7 @@
         <!-- build:js js/header-combined.js -->
         <script type="text/javascript" src="../../node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"></script>
         <script type="text/javascript" src="../../node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
-        <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="../../node_modules/angular/angular.min.js"></script>
-        <script type="text/javascript" src="../../node_modules/axios/dist/axios.min.js"></script>
+
         <!-- endbuild -->
     </head>
 
@@ -45,40 +43,71 @@
                         <div class="d-flex align-items-center text-white"><i class="fa fa-cube me-1"></i><span class="pe-1">Ford</span><span class="pe-1 fw-bold">Power-Up</span><span class="pe-1">Info</span></div>
                     </div>
                 </div>
+                <div class="d-flex align-items-center">
+                    <a class="btn text-white medium px-2" href="https://github.com/tonesto7/ford-pwr-up-info/issues" role="button" title="Submit New Item"><i class="fas fa-plus"></i></a>
+                    <a class="btn text-white medium px-2" href="https://github.com/tonesto7/ford-pwr-up-info" role="button" title="Project Source"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         </nav>
-
         <!-- Navbar -->
-        <div class="justify-content-center" ng-controller="PwrUpInfoController">
-            <div class="d-flex justify-content-center">
-                <div class="d-flex align-items-center">
-                    <div class="card hover-shadow border-ford-blue my-2 px-0">
-                        <div class="card-header software-header-bg px-3 py-0 w-100">
-                            <div class="d-flex justify-content-start">
-                                <div class="my-auto">
-                                    <div class="card-title my-auto"><i class="fas fa-warning"></i></div>
+
+        <!-- Body -->
+        <div class="" ng-controller="PwrUpInfoController">
+            <div class="container">
+                <div class="">
+                    <div class="" ng-if="!pwrUpData.submissions || pwrUpData.submissions.length === 0">
+                        <div class="d-flex justify-content-center align-items-center p-4">No Power-Up Data Found...</div>
+                    </div>
+                    <div class="w-100" ng-if="pwrUpData && pwrUpData.submissions.length > 0">
+                        <div class="d-flex justify-content-center align-items-center" ng-repeat="sub in pwrUpData.submissions track by $index">
+                            <div class="card hover-shadow border-ford-blue mx-2 my-2 w-100">
+                                <div class="card-header bg-light-gray px-3 w-100">
+                                    <div class="d-flex justify-content-start">
+                                        <div class="my-auto">
+                                            <div class="card-title my-auto">{{ sub.powerupVersion }}</div>
+                                            <div class="card-subtitle my-auto small" ng-if="sub.releaseDateUs"><span class="fw-bold me-1">Released (US):</span>{{ sub.releaseDateUs }}</div>
+                                            <div class="card-subtitle my-auto small" ng-if="sub.releaseDateEu"><span class="fw-bold me-1">Released (EU):</span>{{ sub.releaseDateEu }}</div>
+                                            <div ng-if="sub.models && sub.models.length">
+                                                <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Models:</span><span class="badge rounded-pill badge-model-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="model in sub.models track by $index">{{ model }}</span></div>
+                                            </div>
+                                            <div ng-if="sub.modelYears && sub.modelYears.length">
+                                                <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Years:</span><span class="badge rounded-pill badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="my-auto me-auto px-2">
-                                    <div class="card-title small mb-0">Title_Here</div>
-                                    <div class="card-subtitle smaller opacity-70">date_here</div>
+                                <div class="card-body p-2">
+                                    <div class="my-auto me-auto px-2" ng-if="sub.changes && sub.changes.length > 0">
+                                        <div class="card-title small mb-0">Changes:</div>
+                                        <ul class="small">
+                                            <li ng-repeat="change in sub.changes track by $index">{{ change }}</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card-body px-3 py-2">
-                            <div class="small">
-                                <table>
-                                    <tr class="mt-2">
-                                        <td>body_here</td>
-                                    </tr>
-                                </table>
+
+                                <div class="card-footer" ng-if="(sub.citations && sub.citations.length > 0) || (sub.apimVersion) || (sub.modulesUpdated && sub.modulesUpdated.length)">
+                                    <div ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
+                                        <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Modules:</span><span class="badge rounded-pill badge-modulesupd-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}</span></div>
+                                    </div>
+                                    <div class="my-auto me-auto px-2" ng-if="sub.citations && sub.citations.length > 0">
+                                        <div class="card-title small mb-0">Citations:</div>
+                                        <ul class="small">
+                                            <li ng-repeat="citation in sub.citations track by $index"><a class="">{{ citation }}</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Body -->
 
         <!-- build:js js/body-combined.js -->
+        <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/axios/dist/axios.min.js"></script>
         <script type="text/javascript" src="../../node_modules/ui-bootstrap4/dist/ui-bootstrap-3.0.7.min.js"></script>
         <script type="text/javascript" src="../../node_modules/ui-bootstrap4/dist/ui-bootstrap-tpls-3.0.7.min.js"></script>
         <script type="text/javascript" src="../../node_modules/mdb-ui-kit/js/mdb.min.js"></script>
