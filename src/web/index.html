@@ -71,7 +71,11 @@
                                     <div class="my-auto me-auto" ng-if="sub.changes && sub.changes.length > 0">
                                         <div class="fw-bold small mb-0">Changes:</div>
                                         <ul class="small mb-1">
-                                            <li ng-repeat="change in sub.changes track by $index">{{ change }}</li>
+                                            <li ng-repeat="change in sub.changes track by $index">
+                                                <div class="d-flex align-items-center">
+                                                    <span class="">{{ change.text }}<a class="ms-1 small" href="{{ change.link }}" ng-if="change.link">[Link]</a></span>
+                                                </div>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div ng-if="sub.models && sub.models.length">
@@ -82,15 +86,9 @@
                                     </div>
                                 </div>
 
-                                <div class="card-footer px-2 py-1" ng-if="(sub.citationLinks && sub.citationLinks.length > 0) || (sub.apimVersion) || (sub.modulesUpdated && sub.modulesUpdated.length)">
+                                <div class="card-footer px-2 py-1" ng-if="(sub.apimVersion) || (sub.modulesUpdated && sub.modulesUpdated.length)">
                                     <div ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
                                         <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Modules:</span><span class="badge rounded-pill badge-modulesupd-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}</span></div>
-                                    </div>
-                                    <div class="my-auto me-auto" ng-if="sub.citationLinks && sub.citationLinks.length > 0">
-                                        <div class="fw-bold small mb-0">Citations:</div>
-                                        <ul class="small mb-1">
-                                            <li ng-repeat="citation in sub.citationLinks track by $index"><a class="small">{{ citation }}</a></li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
