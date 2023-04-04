@@ -6,11 +6,13 @@
             "releaseDateUs": "March 2023",
             "releaseDateEu": "",
             "powerupVersion": "4.2.2",
-            "changes": ["Easy Listening - Improvements have been made to make Apple Car Play app easy.", "Software Update - In-vechicle scheduling is easy now that you can preselected days and times based on our recommendations or pick your own to create a custom schedule to better fit your lifestyle."],
+            "changes": [
+                { "text": "Easy Listening - Improvements have been made to make Apple Car Play app easy.", "link": "https://www.f150gen14.com/forum/threads/power-up-4-2-2-software-with-carplay-update.16936/" },
+                { "text": "Software Update - In-vehicle scheduling is easy now that you can preselected days and times based on our recommendations or pick your own to create a custom schedule to better fit your lifestyle.", "link": "" }
+            ],
             "modulesUpdated": ["APIM"],
             "updateMethod": "OTA",
-            "apimVersion": "v4.0.23031",
-            "citationLinks": ["https://www.f150gen14.com/forum/threads/power-up-4-2-2-software-with-carplay-update.16936/"]
+            "apimVersion": "v4.0.23031"
         },
         {
             "models": ["F-150"],
@@ -18,11 +20,10 @@
             "releaseDateUs": "March 2023",
             "releaseDateEu": "",
             "powerupVersion": "4.2.2.1",
-            "changes": ["A small adjustment so your vechicle can prepare for furture updates that are more complex"],
+            "changes": [{ "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex", "link": "" }],
             "modulesUpdated": ["APIM"],
             "updateMethod": "OTA",
-            "apimVersion": "v4.0.23014",
-            "citationLinks": []
+            "apimVersion": "v4.0.23014"
         },
         {
             "models": ["F-150"],
@@ -30,11 +31,10 @@
             "releaseDateUs": "March 2023",
             "releaseDateEu": "",
             "powerupVersion": "4.2.1.2",
-            "changes": ["More enhancements are on the way. We’ve made some minor updates to keep everything running smoothly, including improvements to FordPass® Connect modem."],
+            "changes": [{ "text": "More enhancements are on the way. We've made some minor updates to keep everything running smoothly, including improvements to FordPass® Connect modem.", "link": "" }],
             "modulesUpdated": ["TCU"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -43,14 +43,16 @@
             "releaseDateEu": "",
             "powerupVersion": "4.2.1",
             "changes": [
-                "This particular update will set you up for all future ones to come. Think of it as the update that opens the door for all the others to enter through.",
-                "Ability to enter your vehicle using your Key Fob during a non-drivable update. (F150)",
-                "Pop-up alerts to inform you when a precondition is not being met so that you can take the required action to receive your update. For a non-drivable update, preconditions may include that your vehicle is parked, it’s not running, all the lights are off, doors and trunk are closed, and you’re not pressing the brake pedal.."
+                { "text": "This particular update will set you up for all future ones to come. Think of it as the update that opens the door for all the others to enter through.", "link": "" },
+                { "text": "Ability to enter your vehicle using your Key Fob during a non-drivable update. (F150)", "link": "" },
+                {
+                    "text": "Pop-up alerts to inform you when a precondition is not being met so that you can take the required action to receive your update. For a non-drivable update, preconditions may include that your vehicle is parked, it’s not running, all the lights are off, doors and trunk are closed, and you’re not pressing the brake pedal..",
+                    "link": ""
+                }
             ],
             "modulesUpdated": ["GWM"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -58,11 +60,10 @@
             "releaseDateUs": "February 2023",
             "releaseDateEu": "",
             "powerupVersion": "22-PU1010-MIL-QL",
-            "changes": ["A small adjustment so your vechicle can prepare for furture updates that are more complex."],
+            "changes": [{ "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex.", "link": "" }],
             "modulesUpdated": ["PCM"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -70,11 +71,10 @@
             "releaseDateUs": "February 2023",
             "releaseDateEu": "",
             "powerupVersion": "22-PU1010-MIL-LT",
-            "changes": ["A few modifictions were made to help improve the illuminated malfunction indicator lamps."],
+            "changes": [{ "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps.", "link": "" }],
             "modulesUpdated": ["ABS"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -82,11 +82,10 @@
             "releaseDateUs": "February 2023",
             "releaseDateEu": "",
             "powerupVersion": "22-PU1009-DOR-CM",
-            "changes": ["Quality improvement to your trailer position/license plate lights."],
+            "changes": [{ "text": "Quality improvement to your trailer position/license plate lights.", "link": "" }],
             "modulesUpdated": ["BCM"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -94,11 +93,10 @@
             "releaseDateUs": "February 2023",
             "releaseDateEu": "",
             "powerupVersion": "22-PU1007-DOR-UP",
-            "changes": ["To help alleviate overheating, we made an update to improve your heated mirrors for optimal temperature."],
+            "changes": [{ "text": "To help alleviate overheating, we made an update to improve your heated mirrors for optimal temperature.", "link": "" }],
             "modulesUpdated": ["DDM", "PDM"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -106,11 +104,10 @@
             "releaseDateUs": "October 2022",
             "releaseDateEu": "",
             "powerupVersion": "3.5.4",
-            "changes": ["Minor adjustment. Support for two Bluetooth phones simultaneously."],
+            "changes": [{ "text": "Minor adjustment. Support for two Bluetooth phones simultaneously.", "link": "" }],
             "modulesUpdated": ["TCU"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -118,11 +115,10 @@
             "releaseDateUs": "January 2023",
             "releaseDateEu": "",
             "powerupVersion": "3.5.3.2",
-            "changes": ["Dynamic Screen Resizing When you’re using Android Auto™ or Apple CarPlay®, you can now make them appear on your touchscreen in the size you prefer."],
+            "changes": [{ "text": "Dynamic Screen Resizing When you’re using Android Auto™ or Apple CarPlay®, you can now make them appear on your touchscreen in the size you prefer.", "link": "" }],
             "modulesUpdated": ["APIM"],
             "updateMethod": "OTA",
-            "apimVersion": "",
-            "citationLinks": []
+            "apimVersion": ""
         },
         {
             "models": ["F-150"],
@@ -130,11 +126,14 @@
             "releaseDateUs": "",
             "releaseDateEu": "",
             "powerupVersion": "3.5.3",
-            "changes": ["After this update completes, Ford provisions Amazon Alexa feature activation in the primary owner's Connected Services account and the vehicle enables built-in Alexa support shortly afterward.", "Enables full screen CarPlay & Android Auto on F150.", "SYNC new design."],
+            "changes": [
+                { "text": "After this update completes, Ford provisions Amazon Alexa feature activation in the primary owner's Connected Services account and the vehicle enables built-in Alexa support shortly afterward.", "link": "" },
+                { "text": "Enables full screen CarPlay & Android Auto on F150.", "link": "" },
+                { "text": "New SYNC UI design.", "link": "" }
+            ],
             "modulesUpdated": ["APIM"],
             "updateMethod": "OTA",
-            "apimVersion": "v4.0.22228",
-            "citationLinks": []
+            "apimVersion": "v4.0.22228"
         }
     ]
 }
