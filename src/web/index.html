@@ -61,31 +61,28 @@
                     <div class="w-100" ng-if="pwrUpData && pwrUpData.submissions.length > 0">
                         <div class="d-flex justify-content-center align-items-center" ng-repeat="sub in pwrUpData.submissions track by $index">
                             <div class="card hover-shadow border-ford-blue mx-2 my-2 w-100">
-                                <div class="card-header bg-light-gray px-3 w-100">
-                                    <div class="d-flex justify-content-start">
-                                        <div class="my-auto">
-                                            <div class="card-title my-auto">{{ sub.powerupVersion }}</div>
-                                            <div class="card-subtitle my-auto small" ng-if="sub.releaseDateUs"><span class="fw-bold me-1">Released (US):</span>{{ sub.releaseDateUs }}</div>
-                                            <div class="card-subtitle my-auto small" ng-if="sub.releaseDateEu"><span class="fw-bold me-1">Released (EU):</span>{{ sub.releaseDateEu }}</div>
-                                            <div ng-if="sub.models && sub.models.length">
-                                                <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Models:</span><span class="badge rounded-pill badge-model-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="model in sub.models track by $index">{{ model }}</span></div>
-                                            </div>
-                                            <div ng-if="sub.modelYears && sub.modelYears.length">
-                                                <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Years:</span><span class="badge rounded-pill badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span></div>
-                                            </div>
-                                        </div>
+                                <div class="card-header bg-light-gray px-3 py-1 w-100">
+                                    <div class="">
+                                        <div class="card-title fw-bolder text-center text-large my-auto">{{ sub.powerupVersion }}</div>
+                                        <div class="card-subtitle text-center small" ng-if="sub.releaseDateUs">{{ sub.releaseDateUs }}</div>
                                     </div>
                                 </div>
                                 <div class="card-body p-2">
-                                    <div class="my-auto me-auto px-2" ng-if="sub.changes && sub.changes.length > 0">
-                                        <div class="card-title small mb-0">Changes:</div>
+                                    <div class="my-auto me-auto" ng-if="sub.changes && sub.changes.length > 0">
+                                        <div class="fw-bold small mb-0">Changes:</div>
                                         <ul class="small">
                                             <li ng-repeat="change in sub.changes track by $index">{{ change }}</li>
                                         </ul>
                                     </div>
+                                    <div ng-if="sub.models && sub.models.length">
+                                        <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Models:</span><span class="badge rounded-pill badge-model-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="model in sub.models track by $index">{{ model }}</span></div>
+                                    </div>
+                                    <div ng-if="sub.modelYears && sub.modelYears.length">
+                                        <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Years:</span><span class="badge rounded-pill badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span></div>
+                                    </div>
                                 </div>
 
-                                <div class="card-footer" ng-if="(sub.citations && sub.citations.length > 0) || (sub.apimVersion) || (sub.modulesUpdated && sub.modulesUpdated.length)">
+                                <div class="card-footer px-2 py-1" ng-if="(sub.citations && sub.citations.length > 0) || (sub.apimVersion) || (sub.modulesUpdated && sub.modulesUpdated.length)">
                                     <div ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
                                         <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Modules:</span><span class="badge rounded-pill badge-modulesupd-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}</span></div>
                                     </div>
