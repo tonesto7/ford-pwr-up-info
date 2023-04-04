@@ -137,7 +137,7 @@ body.dark {
 } */
 
 .dark .nav-pills {
-    background-color: rgba(69, 69, 69, 0.47);
+    /* background-color: rgba(69, 69, 69, 0.47); */
     color: white;
 }
 

@@ -12,12 +12,8 @@
         "jquery": "3.6.4",
         "jsonschema": "1.4.1",
         "load-awesome": "1.1.0",
-        "localforage": "1.10.0",
-        "lodash": "4.17.21",
         "material-icons": "1.13.4",
         "mdb-ui-kit": "5.0.0",
-        "querystring": "0.2.1",
-        "request": "2.88.2",
         "ui-bootstrap4": "3.0.7"
     },
     "devDependencies": {
