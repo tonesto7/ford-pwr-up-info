@@ -15,27 +15,29 @@ $(window).on("load", () => {
     };
 });
 
-mainApp.service("GetPwrUpData", [
-    "$http",
-    function ($http) {
-        this.LoadData = async () => {
-            try {
-                return (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/data.json")).data;
-            } catch (err) {
-                console.log(`LoadData Exception: `, err);
-                return null;
-            }
-        };
-    },
-]);
-
 mainApp.controller("PwrUpInfoController", [
     "$rootScope",
     "$scope",
-    "GetPwrUpData",
-    async function ($rootScope, $scope, GetPwrUpData) {
-        $scope.pwrUpData = await GetPwrUpData.LoadData();
-        console.log("pwrUpData: ", $scope.pwrUpData);
-        $scope.$apply();
+    "$http",
+
+    function ($rootScope, $scope, $http) {
+        $scope.pwrUpData = null;
+
+        $scope.LoadData = async () => {
+            try {
+                $scope.pwrUpData = (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/data.json")).data;
+            } catch (err) {
+                console.log(`LoadData Exception: `, err);
+            }
+            console.log("pwrUpData: ", $scope.pwrUpData);
+            $scope.$apply();
+        };
+
+        $scope.formatTheDate = (dt) => {
+            console.log("formatTheDate: ", dt);
+            return new Date(dt).toLocaleString();
+        };
+
+        $scope.LoadData();
     },
 ]);

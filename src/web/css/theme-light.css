@@ -138,11 +138,6 @@ pre.good {
     text-decoration: underline;
 }
 
-.dtc-card-footer-bg {
-    background-color: #dadada;
-    border-top: none;
-}
-
 .top-border-lightgray {
     border-top: 1px solid lightgray;
 }
@@ -264,4 +259,12 @@ pre.good {
 .badge-modulesupd-tags {
     background-color: green !important;
     color: white !important;
+}
+
+.badge-modifiedby-tags {
+    background-color: transparent !important;
+    border: 1px solid #212529 !important;
+    border-radius: 3px !important;
+    color: #212529 !important;
+    font-size: 0.8em !important;
 }

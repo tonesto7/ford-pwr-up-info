@@ -55,9 +55,6 @@
         <div class="" ng-controller="PwrUpInfoController">
             <div class="container">
                 <div class="">
-                    <div class="" ng-if="!pwrUpData.submissions || pwrUpData.submissions.length === 0">
-                        <div class="d-flex justify-content-center align-items-center p-4">No Power-Up Data Found...</div>
-                    </div>
                     <div class="w-100" ng-if="pwrUpData && pwrUpData.submissions.length > 0">
                         <div class="d-flex justify-content-center align-items-center" ng-repeat="sub in pwrUpData.submissions track by $index">
                             <div class="card hover-shadow border-ford-blue mx-2 my-2 w-100">
@@ -70,29 +67,65 @@
                                 <div class="card-body p-2">
                                     <div class="my-auto me-auto" ng-if="sub.changes && sub.changes.length > 0">
                                         <div class="fw-bold small mb-0">Changes:</div>
-                                        <ul class="small mb-1">
+                                        <ul class="small mb-2">
                                             <li ng-repeat="change in sub.changes track by $index">
                                                 <div class="d-flex align-items-center">
-                                                    <span class="">{{ change.text }}<a class="ms-1 small" href="{{ change.link }}" ng-if="change.link">[Link]</a></span>
+                                                    <span class="">{{ change.text }}<a class="ms-1 small" href="{{ change.link }}" ng-if="change.link">[{{ change.linkText && change.linkText.length ? change.linkText : 'Link' }}]</a></span>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div ng-if="sub.models && sub.models.length">
-                                        <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Models:</span><span class="badge rounded-pill badge-model-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="model in sub.models track by $index">{{ model }}</span></div>
-                                    </div>
-                                    <div ng-if="sub.modelYears && sub.modelYears.length">
-                                        <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Years:</span><span class="badge rounded-pill badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span></div>
+                                    <div class="d-flex justify-content-start border-ford-blue">
+                                        <table class="table table-responsive table-sm mb-0">
+                                            <thead>
+                                                <th class="px-1 py-0" ng-if="sub.models && sub.models.length">Models</th>
+                                                <th class="px-1 py-0" ng-if="sub.modelYears && sub.modelYears.length">Model Years</th>
+                                                <th class="px-1 py-0" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">Modules Updated</th>
+                                                <th class="px-1 py-0" ng-if="sub.updateMethod && sub.updateMethod.length">Update Method</th>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="">
+                                                    <td class="px-1" ng-if="sub.models && sub.models.length">
+                                                        <div class="container-fluid d-flex align-item-center px-0"><span class="badge badge-model-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="model in sub.models track by $index">{{ model }}</span></div>
+                                                    </td>
+                                                    <td class="px-1" ng-if="sub.modelYears && sub.modelYears.length">
+                                                        <div class="container-fluid d-flex align-item-center px-0"><span class="badge badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span></div>
+                                                    </td>
+                                                    <td class="px-1" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
+                                                        <div class="container-fluid d-flex align-item-center px-0">
+                                                            <span class="badge badge-modulesupd-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}<span class="ms-1" ng-if="sub.apimVersion && sub.apimVersion.length && module === 'APIM'">({{ sub.apimVersion }})</span></span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-1" ng-if="sub.updateMethod && sub.updateMethod.length">
+                                                        <span class="badge badge-success me-1 my-auto ms-0 px-2 py-1 xx-small">{{ sub.updateMethod }}</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
 
-                                <div class="card-footer px-2 py-1" ng-if="(sub.apimVersion) || (sub.modulesUpdated && sub.modulesUpdated.length)">
-                                    <div ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
-                                        <div class="container-fluid d-flex align-item-center px-0"><span class="small fw-bold me-1">Modules:</span><span class="badge rounded-pill badge-modulesupd-tags me-1 my-auto ms-0 px-2 py-1 xx-small" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}</span></div>
+                                <div class="card-footer px-2 py-1">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="px-1">
+                                                <div class="fw-normal badge-modifiedby-tags small ms-1 px-1" ng-if="sub.modifiedBy && sub.modifiedBy.length"><span class="me-1">By:</span>{{ sub.modifiedBy }}</div>
+                                                <div class="fw-normal badge-modifiedby-tags small ms-1 px-1" ng-if="sub.modifiedDate && sub.modifiedDate.length">{{ formatTheDate(sub.modifiedDate) }}</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="px-1">
+                                                <div class="fw-normal badge-modifiedby-tags small ms-1 px-1" ng-if="sub.submittedBy && sub.submittedBy.length"><span class="me-1">By:</span>{{ sub.submittedBy }}</div>
+                                                <div class="fw-normal badge-modifiedby-tags small ms-1 px-1" ng-if="sub.submitDate && sub.submitDate.length">{{ formatTheDate(sub.submitDate) }}</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="" ng-if="!pwrUpData.submissions || pwrUpData.submissions.length === 0">
+                        <div class="d-flex justify-content-center align-items-center p-4">No Power-Up Data Found...</div>
                     </div>
                 </div>
             </div>
