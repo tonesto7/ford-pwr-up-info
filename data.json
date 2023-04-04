@@ -15,7 +15,7 @@
             "apimVersion": "v4.0.23031",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -24,13 +24,13 @@
             "releaseDateUs": "March 2023",
             "releaseDateEu": "",
             "powerupVersion": "4.2.2.1",
-            "changes": [{ "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex", "link": "", "linkText": "" }],
+            "changes": [{ "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex.", "link": "", "linkText": "" }],
             "modulesUpdated": ["APIM"],
             "updateMethod": "OTA",
             "apimVersion": "v4.0.23014",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -45,7 +45,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -68,7 +68,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -83,7 +83,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -98,7 +98,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -113,7 +113,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -128,7 +128,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -143,7 +143,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -158,7 +158,7 @@
             "apimVersion": "",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         },
         {
@@ -177,7 +177,7 @@
             "apimVersion": "v4.0.22228",
             "modifiedBy": "@tonesto7",
             "submittedBy": "",
-            "submitDate": "2023-04-04T10:58:00Z-500",
+            "submitDate": "2023-04-04T14:58:00.000Z",
             "modifiedDate": ""
         }
     ]
