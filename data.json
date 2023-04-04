@@ -251,17 +251,20 @@
                 {
                     "link": "",
                     "linkText": "",
-                    "text": "After this update completes, Ford provisions Amazon Alexa feature activation in the primary owner's Connected Services account and the vehicle enables built-in Alexa support shortly afterward."
+                    "text": "After this update completes, Ford provisions Amazon Alexa feature activation in the primary owner's Connected Services account and the vehicle enables built-in Alexa support shortly afterward.",
+                    "models": []
                 },
                 {
                     "link": "",
                     "linkText": "",
-                    "text": "Enables full screen CarPlay & Android Auto on F150."
+                    "text": "Enables full screen CarPlay & Android Auto on F150.",
+                    "models": []
                 },
                 {
                     "link": "",
                     "linkText": "",
-                    "text": "New SYNC UI design."
+                    "text": "New SYNC UI design.",
+                    "models": []
                 }
             ],
             "inhibitMinutes": 0,
@@ -273,6 +276,30 @@
             "modulesUpdated": ["APIM"],
             "powerupVersion": "3.5.3",
             "releaseDateEu": "",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Preparing your vehicle for Alexa Built-In.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "3.5.2",
+            "releaseDateEu": "2022-09-01",
             "releaseDateUs": "",
             "submitDate": "2023-04-04T14:58:00.000Z",
             "submittedBy": "",
@@ -599,6 +626,334 @@
             "modulesUpdated": ["APIM", "TCU"],
             "powerupVersion": "2.6.0",
             "releaseDateEu": "2022-01-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Fixed an issue with horn and lights feature in FordPass."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "2.7.1",
+            "releaseDateEu": "2022-02-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Added an information bar on the right side of Instrument cluster messages.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Added tenths of a mile to Instrument cluster odometer above 10,000mi.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Added a snowflake on the Instrument cluster when the temperature drops below 4°C or 40°F.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Minor updates here and there.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Fix 12V battery drain due to Instrument cluster backlight failing to turn off.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Second update of several to enable BlueCruise.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 30,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "2.7.3",
+            "releaseDateEu": "2022-02-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Small adjustments so your vehicle can prepare for future updates."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Third update of several to enable BlueCruise."
+                }
+            ],
+            "inhibitMinutes": 30,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "2.7.4",
+            "releaseDateEu": "2022-03-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Enabled driver attention monitoring camera while cruise control and lane centering are enabled, with distraction messaging to driver 'Watch the road'.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Removed the nonfunctioning frunk button.",
+                    "models": ["Mach-E"]
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Minor fine-tuning to keep everything up to date.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Fifth update of several to enable BlueCruise .",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Pro Trailer Backup Assist refinements (you can now choose either the checkered target sticker or the yaw rate sensor to detect trailer angle).",
+                    "models": ["F-150"]
+                }
+            ],
+            "inhibitMinutes": 145,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["IPMA", "DSM", "CMR", "CCM", "PSCM"],
+            "powerupVersion": "2.8.1",
+            "releaseDateEu": "2022-03-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Enabled BlueCruise hands free driving feature.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Minor updates 'here and there'.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Sixth update of several to enable BlueCruise .",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "2.8.2",
+            "releaseDateEu": "2022-03-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "v4.0.22095",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Minor adjustments.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Some camera views are now available while the vehicle is in motion.",
+                    "models": []
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Added Picture-in-Picture capability to the Trailer Reverse Guidance feature.",
+                    "models": []
+                },
+
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Updated SYNC to Software Version: 22095_PRODUCT Revision: 421.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "2.8.3",
+            "releaseDateEu": "2022-03-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "The functionality of rear-view cameras has been improved.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "22-PU0707-SCH-POPB",
+            "releaseDateEu": "2022-08-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Prepares for future power steering control module (PSCM) OTA updates by ensuring that a failure to de-inhibit condition is prevented.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "22-PU0727-VI-FXB",
+            "releaseDateEu": "2022-08-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Minor adjustment to prepare for future updates.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "22-PU0614-SRV-RC",
+            "releaseDateEu": "2022-06-01",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA"
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "text": "Added horn and lights feature in FordPass without Bluetooth connection.",
+                    "models": []
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "22-PU0727-VI-FXA",
+            "releaseDateEu": "2022-09-01",
             "releaseDateUs": "",
             "submitDate": "2023-04-04T14:58:00.000Z",
             "submittedBy": "",
