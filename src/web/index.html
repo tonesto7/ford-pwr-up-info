@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Ford Power-Up Info</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" type="application/manifest+json; charset=utf-8" href="/site.webmanifest" />
+
+        <!-- build:css css/combined.css -->
+        <link rel="stylesheet" type="text/css" href="../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../../node_modules/@fortawesome/fontawesome-free/css/brands.min.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/roboto-font.css" />
+        <link rel="stylesheet" type="text/css" href="css/sf-pro-display.css" />
+        <link rel="stylesheet" type="text/css" href="../../node_modules/mdb-ui-kit/css/mdb.min.css" />
+        <link rel="stylesheet" type="text/css" href="../../node_modules/material-icons/iconfont/material-icons.css" />
+        <link rel="stylesheet" type="text/css" href="../../node_modules/ui-bootstrap4/dist/ui-bootstrap-3.0.7-csp.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme-light.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme-dark.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/theme_toggle.css" /> -->
+
+        <link rel="stylesheet" type="text/css" href="css/spinners.css" />
+        <!-- endbuild -->
+
+        <!-- build:js js/header-combined.js -->
+        <script type="text/javascript" src="../../node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/axios/dist/axios.min.js"></script>
+        <!-- endbuild -->
+    </head>
+
+    <body class="pb-4" ng-app="mainApp" ng-cloak>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg py-0 navbar-dark bg-ford-blue">
+            <div class="container-fluid my-2" id="site-navbar">
+                <div class="text-center">
+                    <div class="d-flex justify-content-center text-center medium">
+                        <div class="d-flex align-items-center text-white"><i class="fa fa-cube me-1"></i><span class="pe-1">Ford</span><span class="pe-1 fw-bold">Power-Up</span><span class="pe-1">Info</span></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar -->
+        <div class="justify-content-center" ng-controller="PwrUpInfoController">
+            <div class="d-flex justify-content-center">
+                <div class="d-flex align-items-center">
+                    <div class="card hover-shadow border-ford-blue my-2 px-0">
+                        <div class="card-header software-header-bg px-3 py-0 w-100">
+                            <div class="d-flex justify-content-start">
+                                <div class="my-auto">
+                                    <div class="card-title my-auto"><i class="fas fa-warning"></i></div>
+                                </div>
+                                <div class="my-auto me-auto px-2">
+                                    <div class="card-title small mb-0">Title_Here</div>
+                                    <div class="card-subtitle smaller opacity-70">date_here</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <div class="small">
+                                <table>
+                                    <tr class="mt-2">
+                                        <td>body_here</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- build:js js/body-combined.js -->
+        <script type="text/javascript" src="../../node_modules/ui-bootstrap4/dist/ui-bootstrap-3.0.7.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/ui-bootstrap4/dist/ui-bootstrap-tpls-3.0.7.min.js"></script>
+        <script type="text/javascript" src="../../node_modules/mdb-ui-kit/js/mdb.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>
