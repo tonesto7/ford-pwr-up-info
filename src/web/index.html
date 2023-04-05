@@ -67,14 +67,13 @@
                                 <div class="col-4"></div>
                                 <div class="col-4 my-auto">
                                     <div class="d-flex justify-content-center">
-                                        <form class="" ng-if="vehicleModelList && vehicleModelList.length">
-                                            <div class="">
-                                                <select id="vehicleModelFilter" ng-model="vehicleModelFilter" class="form-select form-select-sm rounded-border-10" aria-label=".form-select-sm example" ng-change="applyModelFilter()">
-                                                    <option value="" selected>All Models</option>
-                                                    <option class="text-uppercase" ng-repeat="model in vehicleModelList track by $index" value="{{ model }}">{{ model }}</option>
-                                                </select>
-                                            </div>
-                                        </form>
+                                        <div class="" ng-if="vehicleModelList && vehicleModelList.length">
+                                            <select id="vehicleModelFilter" ng-model="vehicleModelFilter" class="form-select form-select-sm rounded-border-10" aria-label=".form-select-sm example" ng-change="applyModelFilter()" aria-label="Floating label select example">
+                                                <option value="" selected>All Models</option>
+                                                <option class="text-uppercase" ng-repeat="model in vehicleModelList track by $index" value="{{ model }}">{{ model }}</option>
+                                            </select>
+                                            <!-- <label for="vehicleModelFilter">Works with selects</label> -->
+                                        </div>
                                     </div>
                                 </div>
 
@@ -101,7 +100,7 @@
                                     </div>
                                     <div class="card-body p-2">
                                         <div class="d-flex justify-content-start">
-                                            <table class="table table-responsive table-sm">
+                                            <table class="table table-responsive table-sm mb-1">
                                                 <thead>
                                                     <th class="px-1 py-0 text-center">Model Years</th>
                                                     <th class="px-1 py-0 text-center" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">Modules Updated</th>
