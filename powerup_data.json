@@ -138,8 +138,8 @@
                 {
                     "link": "",
                     "linkText": "",
-                    "models": [],
-                    "text": "Ability to enter your vehicle using your Key Fob during a non-drivable update. (F150)."
+                    "models": ["F-150"],
+                    "text": "Ability to enter your vehicle using your Key Fob during a non-drivable update."
                 },
                 {
                     "link": "",
