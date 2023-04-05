@@ -249,21 +249,25 @@ pre.good {
 .badge-model-tags {
     background-color: #212529b3 !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .badge-chg-model-tags {
     background-color: #ffc85a !important;
     color: #000000 !important;
+    font-size: 0.8em;
 }
 
 .badge-modelyear-tags {
     background-color: blueviolet !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .badge-modulesupd-tags {
     background-color: #3b71ca !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .badge-modifiedby-tags {
@@ -277,14 +281,34 @@ pre.good {
 .badge-updmethod-tags {
     background-color: #d6f0e0 !important;
     color: #000000 !important;
+    font-size: 0.8em;
 }
 
 .badge-inhibit-enabled-tags {
     background-color: #ff0000b3 !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .badge-inhibit-disabled-tags {
     background-color: #9fa6b2 !important;
     color: white !important;
+    font-size: 0.8em;
+}
+
+.badge-us-date {
+    background-color: #3b71ca !important;
+    color: white !important;
+    font-size: 0.65em;
+}
+
+.badge-eu-date {
+    background-color: #003399 !important;
+    color: #fef000 !important;
+    font-size: 0.6em;
+}
+
+.release-date-title {
+    margin-top: -0.25em !important;
+    opacity: 0.8 !important;
 }

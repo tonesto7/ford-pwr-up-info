@@ -376,26 +376,31 @@ button {
 .dark .badge-model-tags {
     background-color: #626262b3 !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .dark .badge-chg-model-tags {
     background-color: #ffc85a !important;
     color: #000000 !important;
+    font-size: 0.8em;
 }
 
 .dark .badge-modelyear-tags {
     background-color: blueviolet !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .dark .badge-updmethod-tags {
     background-color: #d6f0e0 !important;
     color: #000000 !important;
+    font-size: 0.8em;
 }
 
 .dark .badge-modulesupd-tags {
     background-color: #3b71ca !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .dark .badge-modifiedby-tags {
@@ -409,9 +414,11 @@ button {
 .dark .badge-inhibit-enabled-tags {
     background-color: #ff0000b3 !important;
     color: white !important;
+    font-size: 0.8em;
 }
 
 .dark .badge-inhibit-disabled-tags {
     background-color: #9fa6b2 !important;
     color: white !important;
+    font-size: 0.8em;
 }

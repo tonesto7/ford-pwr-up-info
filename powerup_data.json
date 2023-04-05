@@ -1687,13 +1687,13 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
-                    "text": "Minor fine-tuning"
+                    "text": "Some Minor fine-tuning to keep everything running smoothly."
                 }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mach-E", "Bronco"],
+            "models": ["Mach-E", "Bronco", "F-150"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],

@@ -91,7 +91,14 @@
                                         <div class="d-flex justify-content-between">
                                             <div class="">
                                                 <div class="card-title fw-bolder text-large my-auto">{{ sub.powerupVersion }}</div>
-                                                <div class="card-subtitle small">{{ sub.releaseDateUs ? formatDateMonthYear(sub.releaseDateUs) : "No Release Date" }}</div>
+                                                <div class="small">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="release-date-title">{{ sub.releaseDateUs ? formatDateMonthYear(sub.releaseDateUs) : "No Release Date" }}<span class="badge badge-us-date my-auto ms-1 px-1 py-1" ng-if="sub.releaseDateEu">US</span></span>
+                                                    </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="release-date-title" ng-if="sub.releaseDateEu">{{ formatDateMonthYear(sub.releaseDateEu) }}<span class="badge badge-eu-date my-auto ms-1 px-1 py-1" ng-if="sub.releaseDateUs">EU</span></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="my-auto">
                                                 <div class="container-fluid d-flex justify-content-center align-item-center px-0"><span class="badge badge-model-tags me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="model in sub.models | orderBy">{{ model }}</span></div>
@@ -109,27 +116,25 @@
                                                 </thead>
                                                 <tbody>
                                                     <tr class="">
-                                                        <td class="p-1">
-                                                            <div class="container-fluid d-flex justify-content-center align-item-center px-0" ng-if="!sub.modelYears || !sub.modelYears.length"><span class="badge badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 small">ALL</span></div>
-                                                            <div class="container-fluid d-flex justify-content-center align-item-center px-0" ng-if="sub.modelYears && sub.modelYears.length">
-                                                                <span class="badge badge-modelyear-tags me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span>
+                                                        <td class="p-1 small">
+                                                            <div class="text-center px-0" ng-if="!sub.modelYears || !sub.modelYears.length"><span class="badge badge-modelyear-tags me-1 my-auto px-2 py-1">ALL</span></div>
+                                                            <div class="container-fluid text-center px-0" ng-if="sub.modelYears && sub.modelYears.length">
+                                                                <span class="badge badge-modelyear-tags me-1 my-auto px-2 py-1" ng-repeat="year in sub.modelYears track by $index">{{ year }}</span>
                                                             </div>
                                                         </td>
-                                                        <td class="p-1" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
+                                                        <td class="p-1 small" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
                                                             <div class="container-fluid text-center px-0">
-                                                                <span class="badge badge-modulesupd-tags text-uppercase me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="module in sub.modulesUpdated track by $index"
-                                                                    >{{ module }}<span class="ms-1" ng-if="sub.apimVersion && sub.apimVersion.length && module === 'APIM'">({{ sub.apimVersion }})</span></span
-                                                                >
+                                                                <span class="badge badge-modulesupd-tags text-uppercase me-1 my-auto px-2 py-1" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}<span class="ms-1" ng-if="sub.apimVersion && sub.apimVersion.length && module === 'APIM'">({{ sub.apimVersion }})</span></span>
                                                             </div>
                                                         </td>
-                                                        <td class="p-1" ng-if="sub.updateMethod && sub.updateMethod.length">
-                                                            <div class="d-flex justify-content-center align-item-center">
-                                                                <span class="badge badge-updmethod-tags my-auto ms-0 px-2 py-1 small">{{ sub.updateMethod }}</span>
+                                                        <td class="p-1 small" ng-if="sub.updateMethod && sub.updateMethod.length">
+                                                            <div class="text-center px-0">
+                                                                <span class="badge badge-updmethod-tags my-auto px-2 py-1">{{ sub.updateMethod }}</span>
                                                             </div>
                                                         </td>
-                                                        <td class="p-1">
-                                                            <div class="d-flex justify-content-center align-item-center">
-                                                                <span class="badge my-auto ms-0 px-2 py-1 small text-uppercase" ng-class="getInhibitTagCls(sub.inhibitRequired)">{{ sub.inhibitRequired }}{{ sub.inhibitMinutes && sub.inhibitMinutes > 0 ? ' (' + sub.inhibitMinutes +'Min)' : "" }}</span>
+                                                        <td class="p-1 small">
+                                                            <div class="text-center px-0">
+                                                                <span class="badge my-auto px-2 py-1 text-uppercase" ng-class="getInhibitTagCls(sub.inhibitRequired)">{{ sub.inhibitRequired }}{{ sub.inhibitMinutes && sub.inhibitMinutes > 0 ? ' (' + sub.inhibitMinutes +'Min)' : "" }}</span>
                                                             </div>
                                                         </td>
                                                     </tr>
