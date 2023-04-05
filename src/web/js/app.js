@@ -21,9 +21,9 @@ mainApp.controller("PwrUpInfoController", [
     "$http",
 
     function ($rootScope, $scope, $http) {
-        $scope.MasterPwrUpDataMap = {};
         $scope.AllPowerUpData = null;
-        $scope.vehicleDataKeys = ["f150", "lightning", "mache"];
+        $scope.FilteredPowerUpData = null;
+        $scope.vehicleModelList = [];
 
         $scope.formatDateToLocale = (dt) => {
             // console.log("formatDateToLocale: ", dt);
@@ -48,23 +48,48 @@ mainApp.controller("PwrUpInfoController", [
             return inhibit ? "badge-inhibit-enabled-tags" : "badge-inhibit-disabled-tags";
         };
 
+        $scope.getModelList = (items) => {
+            let models = [];
+            // collects all of the models from the submissions then creates a unique list
+            items.map((item) => {
+                if (item.models) {
+                    item.models.map((model) => {
+                        if (!models.includes(model)) {
+                            models.push(model);
+                        }
+                    });
+                }
+            });
+
+            console.log("models: ", models);
+            return models.sort();
+        };
+
         $scope.LoadPwrUpData = async () => {
             try {
-                // for (const [i, vehKey] of $scope.vehicleDataKeys.entries()) {
-                //     console.log("loading powerup data for vehicle: ", vehKey);
-                //     const data = (await $http.get(`https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/powerup_data_${vehKey}.json`)).data;
-                //     data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
-                //     $scope.MasterPwrUpDataMap[vehKey] = data;
-                // }
                 let data = (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/powerup_data.json")).data;
-                data.submissions = orderObjectBy(data.submissions, "releaseDateUs");
                 data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
+                $scope.vehicleModelList = $scope.getModelList(data.submissions);
                 $scope.AllPowerUpData = data;
+                $scope.FilteredPowerUpData = data;
             } catch (err) {
                 console.log(`LoadPwrUpData Exception: `, err);
             }
             console.log("LoadPwrUpData: ", $scope.AllPowerUpData);
             $scope.$apply();
+        };
+
+        $scope.applyModelFilter = () => {
+            let selectedModel = $("#vehicleModelFilter").val();
+            console.log("selectedModel: ", selectedModel);
+            if (!selectedModel) {
+                $scope.FilteredPowerUpData = angular.copy($scope.AllPowerUpData);
+            } else {
+                $scope.FilteredPowerUpData = angular.copy($scope.AllPowerUpData);
+                $scope.FilteredPowerUpData.submissions = $scope.FilteredPowerUpData.submissions.filter((item) => {
+                    return item.models.includes(selectedModel);
+                });
+            }
         };
 
         $scope.LoadPwrUpData();
