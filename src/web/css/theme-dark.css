@@ -378,13 +378,23 @@ button {
     color: white !important;
 }
 
+.dark .badge-chg-model-tags {
+    background-color: #ffc85a !important;
+    color: #000000 !important;
+}
+
 .dark .badge-modelyear-tags {
     background-color: blueviolet !important;
     color: white !important;
 }
 
+.dark .badge-updmethod-tags {
+    background-color: #d6f0e0 !important;
+    color: #000000 !important;
+}
+
 .dark .badge-modulesupd-tags {
-    background-color: green !important;
+    background-color: #3b71ca !important;
     color: white !important;
 }
 
@@ -394,4 +404,14 @@ button {
     border-radius: 3px !important;
     color: #b9b9b9 !important;
     font-size: 0.8em !important;
+}
+
+.dark .badge-inhibit-enabled-tags {
+    background-color: #ff0000b3 !important;
+    color: white !important;
+}
+
+.dark .badge-inhibit-disabled-tags {
+    background-color: #9162dcb3 !important;
+    color: white !important;
 }

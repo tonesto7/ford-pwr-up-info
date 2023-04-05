@@ -44,6 +44,10 @@ mainApp.controller("PwrUpInfoController", [
             return resp;
         };
 
+        $scope.getInhibitTagCls = (inhibit) => {
+            return inhibit ? "badge-inhibit-enabled-tags" : "badge-inhibit-disabled-tags";
+        };
+
         $scope.LoadPwrUpData = async () => {
             try {
                 // for (const [i, vehKey] of $scope.vehicleDataKeys.entries()) {

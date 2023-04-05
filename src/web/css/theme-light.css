@@ -251,13 +251,18 @@ pre.good {
     color: white !important;
 }
 
+.badge-chg-model-tags {
+    background-color: #ffc85a !important;
+    color: #000000 !important;
+}
+
 .badge-modelyear-tags {
     background-color: blueviolet !important;
     color: white !important;
 }
 
 .badge-modulesupd-tags {
-    background-color: green !important;
+    background-color: #3b71ca !important;
     color: white !important;
 }
 
@@ -267,4 +272,19 @@ pre.good {
     border-radius: 3px !important;
     color: #212529 !important;
     font-size: 0.8em !important;
+}
+
+.badge-updmethod-tags {
+    background-color: #d6f0e0 !important;
+    color: #000000 !important;
+}
+
+.badge-inhibit-enabled-tags {
+    background-color: #ff0000b3 !important;
+    color: white !important;
+}
+
+.badge-inhibit-disabled-tags {
+    background-color: #9162dcb3 !important;
+    color: white !important;
 }
