@@ -87,7 +87,7 @@ mainApp.controller("PwrUpInfoController", [
             } else {
                 $scope.FilteredPowerUpData = angular.copy($scope.AllPowerUpData);
                 $scope.FilteredPowerUpData.submissions = $scope.FilteredPowerUpData.submissions.filter((item) => {
-                    return item.models.includes(selectedModel);
+                    return item.models.includes(selectedModel) || item.changes.map((change) => change.model).includes(selectedModel);
                 });
             }
         };
