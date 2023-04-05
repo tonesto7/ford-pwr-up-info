@@ -95,7 +95,7 @@
                                                 <div class="card-subtitle small">{{ sub.releaseDateUs ? formatDateMonthYear(sub.releaseDateUs) : "No Release Date" }}</div>
                                             </div>
                                             <div class="my-auto">
-                                                <div class="container-fluid d-flex justify-content-center align-item-center px-0"><span class="badge badge-model-tags me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="model in sub.models track by $index">{{ model }}</span></div>
+                                                <div class="container-fluid d-flex justify-content-center align-item-center px-0"><span class="badge badge-model-tags me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="model in sub.models | orderBy">{{ model }}</span></div>
                                             </div>
                                         </div>
                                     </div>
