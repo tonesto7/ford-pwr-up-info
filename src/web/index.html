@@ -110,7 +110,9 @@
                                                             </td>
                                                             <td class="p-1" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">
                                                                 <div class="container-fluid d-flex justify-content-center align-item-center px-0">
-                                                                    <span class="badge badge-modulesupd-tags me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="module in sub.modulesUpdated track by $index">{{ module }}<span class="ms-1" ng-if="sub.apimVersion && sub.apimVersion.length && module === 'APIM'">({{ sub.apimVersion }})</span></span>
+                                                                    <span class="badge badge-modulesupd-tags text-uppercase me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="module in sub.modulesUpdated track by $index"
+                                                                        >{{ module }}<span class="ms-1" ng-if="sub.apimVersion && sub.apimVersion.length && module === 'APIM'">({{ sub.apimVersion }})</span></span
+                                                                    >
                                                                 </div>
                                                             </td>
                                                             <td class="p-1" ng-if="sub.updateMethod && sub.updateMethod.length">
@@ -120,7 +122,7 @@
                                                             </td>
                                                             <td class="p-1">
                                                                 <div class="d-flex justify-content-center align-item-center">
-                                                                    <span class="badge my-auto ms-0 px-2 py-1 small text-capitalize" ng-class="getInhibitTagCls(sub.inhibitRequired)">{{ sub.inhibitRequired }}{{ sub.inhibitMinutes && sub.inhibitMinutes > 0 ? ' (' + sub.inhibitMinutes +'Min)' : "" }}</span>
+                                                                    <span class="badge my-auto ms-0 px-2 py-1 small text-uppercase" ng-class="getInhibitTagCls(sub.inhibitRequired)">{{ sub.inhibitRequired }}{{ sub.inhibitMinutes && sub.inhibitMinutes > 0 ? ' (' + sub.inhibitMinutes +'Min)' : "" }}</span>
                                                                 </div>
                                                             </td>
                                                         </tr>
