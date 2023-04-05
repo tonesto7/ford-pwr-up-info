@@ -1,5 +1,5 @@
 // Defines the main angular site instancelet authenticated = false;
-let mainApp = angular.module("mainApp", ["ui.bootstrap"]);
+let mainApp = angular.module("mainApp", ["ui.bootstrap", "ngSanitize"]);
 
 $(window).on("load", () => {
     console.log("Document Ready...");
@@ -31,7 +31,7 @@ mainApp.controller("PwrUpInfoController", [
             return new Date(dt).toLocaleString();
         };
 
-        $scope.formatDateMonthYear = (dt) => {
+        $scope.fmtReleaseDate = (dt) => {
             //Formats date as March 2023
             let options = { month: "long", year: "numeric", timeZone: "UTC" };
             const date = new Date(dt);
@@ -41,7 +41,7 @@ mainApp.controller("PwrUpInfoController", [
                 options.day = "numeric";
             }
             const resp = new Intl.DateTimeFormat("en-US", options).format(date);
-            // console.log("formatDateMonthYear: ", resp);
+            // console.log("fmtReleaseDate: ", resp);
             return resp;
         };
 
@@ -66,10 +66,28 @@ mainApp.controller("PwrUpInfoController", [
             return models.sort();
         };
 
+        $scope.GetReleaseDateHtml = (sub) => {
+            let divWrap = (span) => {
+                return `<div class="d-flex align-items-center">${span}</div>`;
+            };
+            let html = "";
+            if (sub.releaseDateUs && sub.releaseDateEu) {
+                html += divWrap(`<span class="release-date-title">${$scope.fmtReleaseDate(sub.releaseDateUs)}<span class="badge badge-us-date my-auto ms-1 px-1 py-1">US</span></span>`);
+                html += divWrap(`<span class="release-date-title">${$scope.fmtReleaseDate(sub.releaseDateEu)}<span class="badge badge-eu-date my-auto ms-1 px-1 py-1">EU</span></span>`);
+            } else if (sub.releaseDateUs) {
+                html += divWrap(`<span class="release-date-title">${$scope.fmtReleaseDate(sub.releaseDateUs)}</span>`);
+            } else if (sub.releaseDateEu) {
+                html += divWrap(`<span class="release-date-title">${$scope.fmtReleaseDate(sub.releaseDateEu)}<span class="badge badge-eu-date my-auto ms-1 px-1 py-1">EU</span></span>`);
+            } else {
+                html += divWrap(`<span class="release-date-title">No Release Date</span>`);
+            }
+            return html;
+        };
+
         $scope.LoadPwrUpData = async () => {
             try {
                 let data = (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/powerup_data.json")).data;
-                data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
+                data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "releaseDateEu", "powerupVersion"]);
                 $scope.vehicleModelList = $scope.getModelList(data.submissions);
                 $scope.AllPowerUpData = data;
                 $scope.FilteredPowerUpData = data;

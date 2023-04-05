@@ -534,8 +534,8 @@
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
             "powerupVersion": "22-PU1212-SWS-ECGMP",
-            "releaseDateEu": "",
-            "releaseDateUs": "2023-01-01",
+            "releaseDateEu": "2023-01-01",
+            "releaseDateUs": "",
             "submitDate": "2023-04-04T14:58:00.000Z",
             "submittedBy": "",
             "updateMethod": "OTA"
