@@ -24,6 +24,7 @@ mainApp.controller("PwrUpInfoController", [
         $scope.AllPowerUpData = null;
         $scope.FilteredPowerUpData = null;
         $scope.vehicleModelList = [];
+        $scope.dataLoaded = false;
 
         $scope.formatDateToLocale = (dt) => {
             // console.log("formatDateToLocale: ", dt);
@@ -72,6 +73,7 @@ mainApp.controller("PwrUpInfoController", [
                 $scope.vehicleModelList = $scope.getModelList(data.submissions);
                 $scope.AllPowerUpData = data;
                 $scope.FilteredPowerUpData = data;
+                $scope.dataLoaded = true;
             } catch (err) {
                 console.log(`LoadPwrUpData Exception: `, err);
             }

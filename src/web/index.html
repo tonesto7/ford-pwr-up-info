@@ -22,9 +22,8 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/theme-light.css" />
         <link rel="stylesheet" type="text/css" href="css/theme-dark.css" />
-        <!-- <link rel="stylesheet" type="text/css" href="css/theme_toggle.css" /> -->
-
         <link rel="stylesheet" type="text/css" href="css/spinners.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/theme_toggle.css" /> -->
         <!-- endbuild -->
 
         <!-- build:js js/header-combined.js -->
@@ -60,6 +59,14 @@
 
                 <div class="container-fluid mx-auto">
                     <div class="d-flex row justify-content-center">
+                        <!-- DATA LOADING SPINNER START -->
+                        <div class="mt-3" ng-if="!dataLoaded">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <span class="d-flex align-items-center text-large text-ford-blue"><span class="loader loader-ford-blue loader-30 me-2"></span>Loading Data</span>
+                            </div>
+                        </div>
+                        <!-- DATA LOADING SPINNER END -->
+
                         <!-- SHOW THIS DIV WHEN SUBMISSION RECORDS ARE FOUND START -->
                         <div class="w-100" ng-if="FilteredPowerUpData && FilteredPowerUpData.submissions.length > 0">
                             <!--  MODEL SELECTOR START -->
@@ -183,7 +190,7 @@
                         <!-- SHOW THIS DIV WHEN SUBMISSION RECORDS ARE FOUND START -->
 
                         <!-- SHOW THIS WHEN THERE ARE NO SUBMISSIONS FOUND START -->
-                        <div class="" ng-if="!FilteredPowerUpData.submissions || FilteredPowerUpData.submissions.length === 0">
+                        <div class="" ng-if="dataLoaded && (!FilteredPowerUpData.submissions || FilteredPowerUpData.submissions.length === 0) ">
                             <div class="card hover-shadow border-ford-blue mx-2 my-2 w-100">
                                 <div class="card-body p-2">
                                     <div class="d-flex justify-content-center align-items-center p-4">No Power-Up Data Found...</div>
