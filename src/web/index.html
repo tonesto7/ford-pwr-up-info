@@ -93,14 +93,14 @@
                             <div class="d-flex justify-content-center align-items-center" ng-repeat="sub in FilteredPowerUpData.submissions track by $index">
                                 <!-- SUBMISSION CARD START  -->
                                 <div class="card hover-shadow border-ford-blue mx-2 my-2 w-100">
-                                    <div class="card-header bg-light-gray px-3 py-1 w-100">
+                                    <div class="card-header bg-light-gray ps-3 pe-2 py-1 w-100">
                                         <div class="d-flex justify-content-between">
                                             <div class="">
                                                 <div class="card-title fw-bolder text-large my-auto">{{ sub.powerupVersion }}</div>
                                                 <div class="small" ng-bind-html="GetReleaseDateHtml(sub)"></div>
                                             </div>
                                             <div class="my-auto">
-                                                <div class="container-fluid d-flex justify-content-center align-item-center px-0"><span class="badge badge-model-tags me-1 my-auto ms-0 px-2 py-1 small" ng-repeat="model in sub.models | orderBy">{{ model }}</span></div>
+                                                <div class="container-fluid text-right px-0"><span class="badge badge-model-tags me-1 my-auto ms-0 px-2 py-1" ng-repeat="model in sub.models | orderBy">{{ model }}</span></div>
                                             </div>
                                         </div>
                                     </div>
