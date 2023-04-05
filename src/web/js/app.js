@@ -22,6 +22,7 @@ mainApp.controller("PwrUpInfoController", [
 
     function ($rootScope, $scope, $http) {
         $scope.MasterPwrUpDataMap = {};
+        $scope.AllPowerUpData = null;
         $scope.vehicleDataKeys = ["f150", "lightning", "mache"];
 
         $scope.formatDateToLocale = (dt) => {
@@ -45,20 +46,20 @@ mainApp.controller("PwrUpInfoController", [
 
         $scope.LoadPwrUpData = async () => {
             try {
-                for (const [i, vehKey] of $scope.vehicleDataKeys.entries()) {
-                    console.log("loading powerup data for vehicle: ", vehKey);
-                    const data = (await $http.get(`https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/powerup_data_${vehKey}.json`)).data;
-                    data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
-                    $scope.MasterPwrUpDataMap[vehKey] = data;
-                }
-                // let data = (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/data.json")).data;
-                // data.submissions = orderObjectBy(data.submissions, "releaseDateUs");
-                // data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
-                // $scope.AllPwrUpData = data;
+                // for (const [i, vehKey] of $scope.vehicleDataKeys.entries()) {
+                //     console.log("loading powerup data for vehicle: ", vehKey);
+                //     const data = (await $http.get(`https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/powerup_data_${vehKey}.json`)).data;
+                //     data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
+                //     $scope.MasterPwrUpDataMap[vehKey] = data;
+                // }
+                let data = (await $http.get("https://raw.githubusercontent.com/tonesto7/ford-pwr-up-info/main/powerup_data.json")).data;
+                data.submissions = orderObjectBy(data.submissions, "releaseDateUs");
+                data.submissions = sortByMultipleKeys(data.submissions, ["releaseDateUs", "powerupVersion"]);
+                $scope.AllPowerUpData = data;
             } catch (err) {
                 console.log(`LoadPwrUpData Exception: `, err);
             }
-            console.log("LoadPwrUpData: ", $scope.MasterPwrUpDataMap);
+            console.log("LoadPwrUpData: ", $scope.AllPowerUpData);
             $scope.$apply();
         };
 
