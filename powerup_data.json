@@ -33,17 +33,25 @@
                     "models": [],
                     "text": "Improvement/adjustment of previous OTA 4.1.3"
                 },
+
                 {
                     "link": "",
                     "linkText": "",
                     "models": [],
-                    "text": "SYNC update to support public WiFi"
+                    "text": "Smart changes Here and There"
+                },
+
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Update allows you to connect to public Wi-Fi hotspot throught SYNC"
                 }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "F-150"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
