@@ -596,6 +596,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "A small adjustment so your vehicle can prepare for future updates that are more complex"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-11T15:17:00.000Z",
+            "modulesUpdated": ["PCM"],
+            "powerupVersion": "22-PU1010-MIL-QL",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-02-01",
+            "submitDate": "2023-04-11T15:17:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Minor Adjustments"
                 }
             ],
