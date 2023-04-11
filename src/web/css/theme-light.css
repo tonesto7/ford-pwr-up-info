@@ -296,6 +296,18 @@ pre.good {
     font-size: 0.8em;
 }
 
+.badge-wifi-required {
+    background-color: #ff0000b3 !important;
+    color: white !important;
+    font-size: 0.8em;
+}
+
+.badge-wifi-not-required {
+    background-color: #9fa6b2 !important;
+    color: white !important;
+    font-size: 0.8em;
+}
+
 .badge-us-date {
     background-color: #3b71ca !important;
     color: white !important;

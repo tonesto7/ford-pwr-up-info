@@ -49,6 +49,10 @@ mainApp.controller("PwrUpInfoController", [
             return inhibit ? "badge-inhibit-enabled-tags" : "badge-inhibit-disabled-tags";
         };
 
+        $scope.getWifiTagCls = (required) => {
+            return required ? "badge-wift-required" : "badge-wifi-not-required";
+        };
+
         $scope.getModelList = (items) => {
             let models = [];
             // collects all of the models from the submissions then creates a unique list

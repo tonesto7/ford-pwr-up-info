@@ -112,6 +112,7 @@
                                                     <th class="px-1 py-0 text-center" ng-if="sub.modulesUpdated && sub.modulesUpdated.length">Modules Updated</th>
                                                     <th class="px-1 py-0 text-center" ng-if="sub.updateMethod && sub.updateMethod.length">Update Method</th>
                                                     <th class="px-1 py-0 text-center">Vehicle Inhibit</th>
+                                                    <th class="px-1 py-0 text-center">Wi-Fi Required</th>
                                                 </thead>
                                                 <tbody>
                                                     <tr class="">
@@ -134,6 +135,11 @@
                                                         <td class="p-1 small">
                                                             <div class="text-center px-0">
                                                                 <span class="badge my-auto px-2 py-1 text-uppercase" ng-class="getInhibitTagCls(sub.inhibitRequired)">{{ sub.inhibitRequired }}{{ sub.inhibitMinutes && sub.inhibitMinutes > 0 ? ' (' + sub.inhibitMinutes +'Min)' : "" }}</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-1 small">
+                                                            <div class="text-center px-0">
+                                                                <span class="badge my-auto px-2 py-1 text-uppercase" ng-class="getWifiTagCls(sub.wifiRequired)">{{ sub.wifiRequired }}{{ sub.wifiRequired }}</span>
                                                             </div>
                                                         </td>
                                                     </tr>
