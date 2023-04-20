@@ -1590,6 +1590,81 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Ford Power-Up Customer Satisfaction Program 21B37 We updated your Powertrain Control Module to fix a potential no-start condition.."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["PCM"],
+            "powerupVersion": "Ford Power Up CSP 21B37",
+            "releaseDateEu": "",
+            "releaseDateUs": "",
+            "submitDate": "2023-04-20T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Quality improvement to your trailer position/license plate lights."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["BCM"],
+            "powerupVersion": "22-PU1009-DOR-CM/TLC-CSM",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-02-01",
+            "submitDate": "2023-04-20T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "To help alleviate overheating, we made an update to improve your heated mirrors for optimal temperature"
+                }
+            ],
+            "inhibitMinutes": 20,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["DDM", "PDM"],
+            "powerupVersion": "22-PU1007-DOR-UP",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-02-01",
+            "submitDate": "2023-04-20T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Added new trip logs (This version may not have been released)"
                 }
             ],
