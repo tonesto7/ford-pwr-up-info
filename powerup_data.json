@@ -13,7 +13,7 @@
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "F-150", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["TCU"],
