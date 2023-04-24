@@ -7,6 +7,32 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Enhancements made to your heating system (HVAC) to the heat capability and help your vehicle respond to humidity.  This should reduce fogging under certain conditions"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@rugedraw",
+            "modifiedDate": "2023-04-24T16:00:00.000Z",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "4.2.5",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-04-01",
+            "submitDate": "2023-04-24T16:00:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Added In-Vehicle Voice Feedback to share instant feedback with Ford"
                 }
             ],
@@ -15,7 +41,7 @@
             "modelYears": [],
             "models": ["Mustang Mach-E", "F-150", "Lightning"],
             "modifiedBy": "@tonesto7",
-            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modifiedDate": "2023-04-24T16:11:00.000Z",
             "modulesUpdated": ["TCU"],
             "powerupVersion": "4.2.4",
             "releaseDateEu": "",
@@ -74,7 +100,7 @@
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
-            "modelYears": [],
+            "modelYears": ["2023"],
             "models": ["Mustang Mach-E"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
@@ -123,6 +149,31 @@
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["APIM"],
             "powerupVersion": "4.2.2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-03-01",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "More enhancements are on the way. We've made some minor updates to keep everything running smoothly, including improvements to FordPass® Connect modem"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2023"],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-24T16:20:00.000Z",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "4.2.1.2",
             "releaseDateEu": "",
             "releaseDateUs": "2023-03-01",
             "submitDate": "2023-04-04T14:58:00.000Z",
