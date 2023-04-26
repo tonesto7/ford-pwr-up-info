@@ -10,13 +10,13 @@
                     "text": "Enhancements made to your heating system (HVAC) to the heat capability and help your vehicle respond to humidity.  This should reduce fogging under certain conditions"
                 }
             ],
-            "inhibitMinutes": 0,
-            "inhibitRequired": false,
+            "inhibitMinutes": 15,
+            "inhibitRequired": true,
             "modelYears": [],
             "models": ["Mustang Mach-E"],
             "modifiedBy": "@rugedraw",
             "modifiedDate": "2023-04-24T16:00:00.000Z",
-            "modulesUpdated": ["TCU"],
+            "modulesUpdated": ["HVAC"],
             "powerupVersion": "4.2.5",
             "releaseDateEu": "",
             "releaseDateUs": "2023-04-01",
