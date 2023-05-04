@@ -7,6 +7,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future"
+                }
+            ],
+            "inhibitMinutes": 30,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@rugedraw",
+            "modifiedDate": "2023-05-03T16:00:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "4.3.2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-03T16:00:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Enhancements made to your heating system (HVAC) to the heat capability and help your vehicle respond to humidity.  This should reduce fogging under certain conditions"
                 }
             ],
