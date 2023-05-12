@@ -1168,6 +1168,37 @@
             "wifiRequired": false
         },
         {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": " Your vehicle can talk (Note that you may have already received an earlier version of Ford Assistant but this update is an enhancement.) Ever wish you could talk to your truck? Now you can with Ford Assistant. Just say, “OK, Ford” to start the conversation, then ask things like \"How does my cruise control work?\", or \"What does Pro Trailer Backup Assist do?\". Your assistant will tell you what you need to know"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Minor updates here and there. Just small stuff to keep everything running smoothly"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-12T12:58:00.000Z",
+            "modulesUpdated": ["APIM", "TCU"],
+            "powerupVersion": "2.6.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2022-05-01",
+            "submitDate": "2023-05-12T12:58:00.000Z",
+            "submittedBy": "@Soccergk2003",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
             "apimVersion": "v4.0.22095",
             "changes": [
                 {
@@ -1586,6 +1617,12 @@
                     "linkText": "",
                     "models": [],
                     "text": "Added horn and lights feature in FordPass"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Changes to update scheduling to allow for multi-day schedules"
                 }
             ],
             "inhibitMinutes": 0,
