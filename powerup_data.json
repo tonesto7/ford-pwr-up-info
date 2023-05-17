@@ -96,12 +96,24 @@
                     "linkText": "",
                     "models": [],
                     "text": "Update allows you to connect to public Wi-Fi hotspot throught SYNC"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["Lightning Lariat", "Lightning Platinum"],
+                    "text": "Reissue | New games: Bridge Battle and Parking Lot"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["Lightning Lariat", "Lightning Platinum"],
+                    "text": "Reissue | Some housekeeping features are included to help further enhance your user experience"
                 }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E", "F-150"],
+            "models": ["Mustang Mach-E", "F-150", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
