@@ -96,7 +96,26 @@
                     "linkText": "",
                     "models": [],
                     "text": "Update allows you to connect to public Wi-Fi hotspot throught SYNC"
-                },
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "4.2.3",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-03-01",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
                 {
                     "link": "",
                     "linkText": "",
@@ -113,14 +132,14 @@
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E", "F-150", "Lightning"],
+            "models": ["Lightning"],
             "modifiedBy": "@tonesto7",
-            "modifiedDate": "2023-04-04T14:58:00.000Z",
-            "modulesUpdated": ["GWM"],
+            "modifiedDate": "2023-05-17T14:58:00.000Z",
+            "modulesUpdated": ["APIM"],
             "powerupVersion": "4.2.3",
             "releaseDateEu": "",
-            "releaseDateUs": "2023-03-01",
-            "submitDate": "2023-04-04T14:58:00.000Z",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-17T14:58:00.000Z",
             "submittedBy": "",
             "updateMethod": "OTA",
             "wifiRequired": false
