@@ -7,6 +7,38 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Recall fix for 22S41: Software updated to protect high-voltage battery components from excessive heat generated during DC fast charging and repeated full throttle events."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Recall fix for 22S29: Software updated to resolve a glitch in your vehicle that could potentially cause unintended acceleration, unintended deceleration, or unintended vehicle movement."
+                }
+            ],
+            "inhibitMinutes": 35,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-24T14:58:00.000Z",
+            "modulesUpdated": ["ABS", "BECM", "PCM", "SOBDMC"],
+            "powerupVersion": "4.2.6",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-24T14:58:00.000Z",
+            "submittedBy": "@kaybay0",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future"
                 }
             ],
