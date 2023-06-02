@@ -324,3 +324,39 @@ pre.good {
     margin-top: -0.25em !important;
     opacity: 0.8 !important;
 }
+
+.badge-vehicle-model-f150 {
+    background-color: #7db8fe !important;
+    color: #000000 !important;
+    font-size: 0.8em;
+}
+
+.badge-vehicle-model-bronco {
+    background-color: #60e927 !important;
+    color: #000000 !important;
+    font-size: 0.8em;
+}
+
+.badge-vehicle-model-ranger {
+    background-color: #8a7f68 !important;
+    color: #fff !important;
+    font-size: 0.8em;
+}
+
+.badge-vehicle-model-mache {
+    background-color: #b631da !important;
+    color: #ffffff !important;
+    font-size: 0.8em;
+}
+
+.badge-vehicle-model-lightning {
+    background-color: #7591de !important;
+    color: #ffffff !important;
+    font-size: 0.8em;
+}
+
+.badge-vehicle-model-other {
+    background-color: #ffc85a !important;
+    color: #000000 !important;
+    font-size: 0.8em;
+}

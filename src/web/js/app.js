@@ -50,7 +50,23 @@ mainApp.controller("PwrUpInfoController", [
         };
 
         $scope.getWifiTagCls = (required) => {
-            return required ? "badge-wift-required" : "badge-wifi-not-required";
+            return required ? "badge-wifi-required" : "badge-wifi-not-required";
+        };
+
+        $scope.getVehicleModelTagCls = (model) => {
+            if (model.includes("F-150")) {
+                return "badge-vehicle-model-f150";
+            } else if (model.includes("Bronco")) {
+                return "badge-vehicle-model-bronco";
+            } else if (model.includes("Ranger")) {
+                return "badge-vehicle-model-ranger";
+            } else if (model.includes("Mach-E")) {
+                return "badge-vehicle-model-mache";
+            } else if (model.includes("Lightning")) {
+                return "badge-vehicle-model-lightning";
+            } else {
+                return "badge-vehicle-model-other";
+            }
         };
 
         $scope.getModelList = (items) => {
