@@ -654,7 +654,7 @@
             "wifiRequired": false
         },
         {
-            "apimVersion": "",
+            "apimVersion": "v4.0.22192",
             "changes": [
                 {
                     "link": "",
@@ -671,7 +671,7 @@
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
             "powerupVersion": "3.5.2.1",
-            "releaseDateEu": "2023-01-01",
+            "releaseDateEu": "2022-09-01",
             "releaseDateUs": "",
             "submitDate": "2023-04-04T14:58:00.000Z",
             "submittedBy": "",
