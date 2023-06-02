@@ -106,13 +106,18 @@ mainApp.controller("PwrUpInfoController", [
         $scope.applyModelFilter = () => {
             let selectedModel = $("#vehicleModelFilter").val();
             console.log("selectedModel: ", selectedModel);
-            if (!selectedModel) {
-                $scope.FilteredPowerUpData = angular.copy($scope.AllPowerUpData);
-            } else {
-                $scope.FilteredPowerUpData = angular.copy($scope.AllPowerUpData);
+            $scope.FilteredPowerUpData = angular.copy($scope.AllPowerUpData);
+            if (selectedModel) {
                 $scope.FilteredPowerUpData.submissions = $scope.FilteredPowerUpData.submissions.filter((item) => {
                     return item.models.includes(selectedModel) || item.changes.map((change) => change.model).includes(selectedModel);
                 });
+                // Filter out changes that have models that don't include the selected model
+                $scope.FilteredPowerUpData.submissions.map((item) => {
+                    item.changes = item.changes.filter((change) => {
+                        return change.models.length === 0 || change.models.includes(selectedModel);
+                    });
+                });
+                console.log("filteredData: ", $scope.FilteredPowerUpData);
             }
         };
 
