@@ -7,6 +7,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": ["2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-06-07T14:58:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "4.3.5",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-06-01",
+            "submitDate": "2023-06-07T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "We've recently completed an improvement to the trailer and tailgate settings for your Ford F-150® truck."
                 }
             ],
