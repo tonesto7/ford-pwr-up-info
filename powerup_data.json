@@ -10,8 +10,8 @@
                     "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road."
                 }
             ],
-            "inhibitMinutes": 5,
-            "inhibitRequired": true,
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
             "modelYears": ["2023"],
             "models": ["F-150"],
             "modifiedBy": "@tonesto7",
