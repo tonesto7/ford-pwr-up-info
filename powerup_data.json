@@ -163,6 +163,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movementImproved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
+                }
+            ],
+            "inhibitMinutes": 35,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-01T14:58:00.000Z",
+            "modulesUpdated": ["OBCC"],
+            "powerupVersion": "23-PU0105-DC-CHG2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Adds camera icon to header bar for 2023MY vehicles"
                 }
             ],
@@ -1181,31 +1206,6 @@
             "releaseDateEu": "",
             "releaseDateUs": "2022-05-01",
             "submitDate": "2023-04-04T14:58:00.000Z",
-            "submittedBy": "",
-            "updateMethod": "OTA",
-            "wifiRequired": false
-        },
-        {
-            "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movementImproved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
-                }
-            ],
-            "inhibitMinutes": 35,
-            "inhibitRequired": true,
-            "modelYears": [],
-            "models": ["Mustang Mach-E"],
-            "modifiedBy": "@tonesto7",
-            "modifiedDate": "2023-05-01T14:58:00.000Z",
-            "modulesUpdated": ["OBCC"],
-            "powerupVersion": "23-PU0105-DC-CHG2",
-            "releaseDateEu": "",
-            "releaseDateUs": "2022-05-01",
-            "submitDate": "2023-05-01T14:58:00.000Z",
             "submittedBy": "",
             "updateMethod": "OTA",
             "wifiRequired": false
