@@ -94,19 +94,19 @@
                 {
                     "link": "",
                     "linkText": "",
-                    "models": [],
+                    "models": ["Mustang Mach-E"],
                     "text": "Improvement/adjustment of previous OTA 4.1.3"
                 },
                 {
                     "link": "",
                     "linkText": "",
-                    "models": [],
+                    "models": ["Mustang Mach-E"],
                     "text": "Smart changes Here and There"
                 },
                 {
                     "link": "",
                     "linkText": "",
-                    "models": [],
+                    "models": ["F-150", "Mustang Mach-E"],
                     "text": "Update allows you to connect to public Wi-Fi hotspot throught SYNC"
                 }
             ],
@@ -121,6 +121,37 @@
             "releaseDateEu": "",
             "releaseDateUs": "2023-03-01",
             "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["Lightning Lariat", "Lightning Platinum"],
+                    "text": "Reissue | New games: Bridge Battle and Parking Lot"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["Lightning Lariat", "Lightning Platinum"],
+                    "text": "Reissue | Some housekeeping features are included to help further enhance your user experience"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-17T14:58:00.000Z",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "4.2.3",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-17T14:58:00.000Z",
             "submittedBy": "",
             "updateMethod": "OTA",
             "wifiRequired": false
@@ -274,7 +305,7 @@
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
@@ -317,7 +348,7 @@
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["APIM"],
@@ -348,7 +379,7 @@
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
@@ -522,7 +553,7 @@
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
@@ -603,7 +634,7 @@
             "wifiRequired": false
         },
         {
-            "apimVersion": "",
+            "apimVersion": "v4.0.22192",
             "changes": [
                 {
                     "link": "",
@@ -620,7 +651,7 @@
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
             "powerupVersion": "3.5.2.1",
-            "releaseDateEu": "2023-01-01",
+            "releaseDateEu": "2022-09-01",
             "releaseDateUs": "",
             "submitDate": "2023-04-04T14:58:00.000Z",
             "submittedBy": "",
@@ -1205,6 +1236,37 @@
             "wifiRequired": false
         },
         {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": " Your vehicle can talk (Note that you may have already received an earlier version of Ford Assistant but this update is an enhancement.) Ever wish you could talk to your truck? Now you can with Ford Assistant. Just say, “OK, Ford” to start the conversation, then ask things like \"How does my cruise control work?\", or \"What does Pro Trailer Backup Assist do?\". Your assistant will tell you what you need to know"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Minor updates here and there. Just small stuff to keep everything running smoothly"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-12T12:58:00.000Z",
+            "modulesUpdated": ["APIM", "TCU"],
+            "powerupVersion": "2.6.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2022-05-01",
+            "submitDate": "2023-05-12T12:58:00.000Z",
+            "submittedBy": "@Soccergk2003",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
             "apimVersion": "v4.0.22095",
             "changes": [
                 {
@@ -1623,6 +1685,12 @@
                     "linkText": "",
                     "models": [],
                     "text": "Added horn and lights feature in FordPass"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Changes to update scheduling to allow for multi-day schedules"
                 }
             ],
             "inhibitMinutes": 0,
