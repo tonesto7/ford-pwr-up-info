@@ -7,6 +7,81 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-06-01T14:58:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "4.3.5",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-06-01",
+            "submitDate": "2023-06-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We've recently completed an improvement to the trailer and tailgate settings for your Ford F-150® truck."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-06-01T14:58:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "4.3.3",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-06-01",
+            "submitDate": "2023-06-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-01T14:58:00.000Z",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "4.3.2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Displayed range has been adjusted to reflect what is possible with optimal driving practices."
                 },
                 {
