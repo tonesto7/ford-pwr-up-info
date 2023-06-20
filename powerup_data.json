@@ -60,8 +60,8 @@
                     "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future."
                 }
             ],
-            "inhibitMinutes": 0,
-            "inhibitRequired": false,
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
             "modelYears": [],
             "models": ["F-150"],
             "modifiedBy": "@tonesto7",
