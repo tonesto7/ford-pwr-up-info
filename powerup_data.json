@@ -150,7 +150,7 @@
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
-            "modelYears": [],
+            "modelYears": ["2021", "2022"],
             "models": ["Mustang Mach-E", "F-150", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-24T16:11:00.000Z",
@@ -187,7 +187,7 @@
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
-            "modelYears": [],
+            "modelYears": ["2021", "2022"],
             "models": ["Mustang Mach-E", "F-150"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
@@ -264,6 +264,12 @@
                     "linkText": "",
                     "models": [],
                     "text": "Adds camera icon to header bar for 2023MY vehicles"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improvements to Apple Carplay; changes to in-vehicle scheduling for updates."
                 }
             ],
             "inhibitMinutes": 0,
@@ -274,6 +280,31 @@
             "modifiedDate": "2023-04-04T14:58:00.000Z",
             "modulesUpdated": ["APIM"],
             "powerupVersion": "4.2.2.2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-03-01",
+            "submitDate": "2023-04-04T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "v4.0.23014",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex. Sync 23014"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-04-04T14:58:00.000Z",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "4.2.2.1",
             "releaseDateEu": "",
             "releaseDateUs": "2023-03-01",
             "submitDate": "2023-04-04T14:58:00.000Z",
@@ -311,7 +342,7 @@
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
-            "modelYears": [],
+            "modelYears": ["2021", "2022"],
             "models": ["Mustang Mach-E", "Lightning", "F-150"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
