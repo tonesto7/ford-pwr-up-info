@@ -2158,7 +2158,7 @@
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
-            "modelYears": [],
+            "modelYears": ["2021"],
             "models": ["Mustang Mach-E", "Bronco", "F-150"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-04-04T14:58:00.000Z",
