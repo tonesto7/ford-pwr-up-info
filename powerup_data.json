@@ -7,6 +7,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "A few adjustments have been made to imporve yout Pro Power Onboard, allowing for an alert that let's you know to close the outlet cover to avoid interference with shifting."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-31T14:58:00.000Z",
+            "modulesUpdated": ["PCM"],
+            "powerupVersion": "22-PU1009-PPO-SI",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-07-01",
+            "submitDate": "2023-07-31T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Static-free inbound. If your vehicle is equipped with a B&O system, your vehicle has been updated to remove unexpected static."
                 }
             ],
