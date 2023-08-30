@@ -132,6 +132,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Improved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-24T14:58:00.000Z",
+            "modulesUpdated": ["APIM", "OBCC"],
+            "powerupVersion": "22-PU0722-DC-CHG3",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-07-24T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Customer Satisfaction Program 21B36: We fine-tuned your Phone As A Key software to help improve reliability and reduce potential Bluetooth disconnection when unlocking or starting your vehicle. This completes customer satisfaction program 21B36."
                 }
             ],
@@ -518,17 +543,133 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
-                    "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movementImproved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
+                    "text": "Removes erroneous 'Air Dam Fault' pop-up message"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improved accuracy of displayed range after AC charging"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Correction a condition where for cabin-preconditioning & heated steering wheel may not be working properly"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improved route based energy predictions to recommended battery cooling based on expected thermal loading."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Charger locking pin robustness improvement (retract while off plug)"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improved 12V battery drain by decreasing the frequency of the vehicle waking up."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Shorter time to engage electronic park break after drivers door is opened."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Displayed motor temperature will now increase more gradually."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Distance to Empty algorithm improvement."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improvement to calibration of brake fluid viscosity algorithm to prevent false DTC detection at cold weather"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improved brake bleed quality"
+                }
+            ],
+            "inhibitMinutes": 35,
+            "inhibitRequired": true,
+            "modelYears": ["2022", "2023"],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-01T14:58:00.000Z",
+            "modulesUpdated": [],
+            "powerupVersion": "23-PU0306-BCF-DET",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-05-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movement."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
                 }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
             "modelYears": [],
-            "models": ["Mustang Mach-E"],
+            "models": ["Mustang Mach-E", "Lightning"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-05-01T14:58:00.000Z",
             "modulesUpdated": ["OBCC"],
             "powerupVersion": "23-PU0105-DC-CHG2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-05-01",
+            "submitDate": "2023-05-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford Power-Up We’ve been busy working to make your experience the best it can be. Distance-to-Empty Improvement We updated the software on your truck to improve the accuracy of distance-to-empty measurement."
+                }
+            ],
+            "inhibitMinutes": 35,
+            "inhibitRequired": true,
+            "modelYears": ["2022"],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-05-01T14:58:00.000Z",
+            "modulesUpdated": ["ABS", "PCM", "SOBDMA", "GFM2", "BECM", "SOBDMC", "SOBDMB"],
+            "powerupVersion": "22-PU1009-MIL-DTE",
             "releaseDateEu": "",
             "releaseDateUs": "2023-05-01",
             "submitDate": "2023-05-01T14:58:00.000Z",
