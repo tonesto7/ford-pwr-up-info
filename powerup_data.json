@@ -7,6 +7,31 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-08-27T14:58:00.000Z",
+            "modulesUpdated": ["ABS", "PCM", "BECM", "SOBDMC"],
+            "powerupVersion": "22-PU1009-MIL-PPO",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-08-27T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "A few adjustments have been made to imporve yout Pro Power Onboard, allowing for an alert that let's you know to close the outlet cover to avoid interference with shifting."
                 }
             ],
@@ -60,8 +85,8 @@
                     "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road."
                 }
             ],
-            "inhibitMinutes": 0,
-            "inhibitRequired": false,
+            "inhibitMinutes": 145,
+            "inhibitRequired": true,
             "modelYears": ["2021"],
             "models": ["F-150"],
             "modifiedBy": "@tonesto7",
@@ -71,6 +96,31 @@
             "releaseDateEu": "",
             "releaseDateUs": "2023-06-01",
             "submitDate": "2023-06-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A vehicle with a view. The functionality of your Rear View Camera has been improved. Some camera views are now available while your vehicle is in motion. To monitor your cargo area or trailer, simply press your camera button and use the center high-mounted stop lamp camera (if equipped) or Rear View Camera, or watch the view from a trailer auxiliary camera (bought and installed separately). For more information on these features, visit Ford.com/support or your digital Owner’s Manual."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": ["2021"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-08-27T14:58:00.000Z",
+            "modulesUpdated": ["IPMA", "PSCM"],
+            "powerupVersion": "4.3.4",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-08-27T14:58:00.000Z",
             "submittedBy": "",
             "updateMethod": "OTA",
             "wifiRequired": false
