@@ -17,6 +17,31 @@
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-08-27T14:58:00.000Z",
             "modulesUpdated": ["ABS", "PCM", "BECM", "SOBDMC"],
+            "powerupVersion": "5.1.1",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-08-27T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-08-27T14:58:00.000Z",
+            "modulesUpdated": ["ABS", "PCM", "BECM", "SOBDMC"],
             "powerupVersion": "22-PU1009-MIL-PPO",
             "releaseDateEu": "",
             "releaseDateUs": "2023-08-01",
@@ -82,13 +107,162 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Smart Changes. Just a quick note to let you know some refinements have been made. These will make your vehicle better prepared to receive future updates that are more complex."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-24T14:58:00.000Z",
+            "modulesUpdated": ["DCME", "DCMF", "DCMG", "DCMH"],
+            "powerupVersion": "23-PU0314-DCM-LAT",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-06-01",
+            "submitDate": "2023-07-24T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Customer Satisfaction Program 21B36: We fine-tuned your Phone As A Key software to help improve reliability and reduce potential Bluetooth disconnection when unlocking or starting your vehicle. This completes customer satisfaction program 21B36."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-24T14:58:00.000Z",
+            "modulesUpdated": ["RFA"],
+            "powerupVersion": "23-PU0415-BLM-VIS",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-06-01",
+            "submitDate": "2023-07-24T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "An update that's music to your ears. Just a quick note to let you know some refinements have been made to keep things running at their best. This update addresses the issue where radio presets have been affected during vehicle software updates. Talk about something to sing about."
+                }
+            ],
+            "inhibitMinutes": 12,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-24T14:58:00.000Z",
+            "modulesUpdated": ["ACM"],
+            "powerupVersion": "23-PU0110-RAD-PS",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-07-24T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "While you may have seen this update before, we're resending to ensure some housekeeping features are included to help further enhance your user experience."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "SYNC update to support public WiFi"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Apple Carplay 'easy listening improvements'"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Video streaming apps for US vehicles: YouTube, NBC News, NBC Today"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "New games: Bridge Battle and Parking Lot"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-24T14:58:00.000Z",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "23-PU0503-CON-FX",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-06-01",
+            "submitDate": "2023-07-24T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford BlueCruise Delivery, Plus Minor Changes. If your Ford Mustang Mach-E is equipped withthe Ford Co-Pilot360 Active 2.0 Prep Package, your Ford BlueCruise hands-free highway driving feature has now been delivered. This completes what we call Product Improvement Program 21G01. There is nothing you need to do except enjoy the update.  Note: You may have already received some of this functionality in a prior update, but this version has been fine-tuned and includes additional tweaks to other features."
+                }
+            ],
+            "inhibitMinutes": 145,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modifiedDate": "2023-07-01T14:58:00.000Z",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "4.3.6",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-07-01",
+            "submitDate": "2023-06-01T14:58:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road."
                 }
             ],
             "inhibitMinutes": 145,
             "inhibitRequired": true,
             "modelYears": ["2021"],
-            "models": ["F-150"],
+            "models": ["F-150", "Mustang Mach-E"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-06-01T14:58:00.000Z",
             "modulesUpdated": ["GWM"],
@@ -106,14 +280,20 @@
                 {
                     "link": "",
                     "linkText": "",
-                    "models": [],
+                    "models": ["F-150"],
                     "text": "A vehicle with a view. The functionality of your Rear View Camera has been improved. Some camera views are now available while your vehicle is in motion. To monitor your cargo area or trailer, simply press your camera button and use the center high-mounted stop lamp camera (if equipped) or Rear View Camera, or watch the view from a trailer auxiliary camera (bought and installed separately). For more information on these features, visit Ford.com/support or your digital Owner’s Manual."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["Mustang Mach-E"],
+                    "text": "Updates are bringing the heat. We've made some enhancements to help while you're out on a road trip.  First, if you're heading toward a DC fast charging station (using your vehicle's navigation), your battery will now start to warm up within 20 miles of your destination. This allows the battery to accept a charge at a faster rate in cold weather when you have excess heater capacity, getting you back on the road. Remember, you must enter your fast charging station into the Navigation System in order for preheating to work.  We've also made a quality improvement to the power steering control. There is nothing you need to do."
                 }
             ],
             "inhibitMinutes": 5,
             "inhibitRequired": true,
             "modelYears": ["2021"],
-            "models": ["F-150"],
+            "models": ["F-150", "Mustang Mach-E"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-08-27T14:58:00.000Z",
             "modulesUpdated": ["IPMA", "PSCM"],
