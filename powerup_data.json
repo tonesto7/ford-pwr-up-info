@@ -7,6 +7,30 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Some minor fine-tuning to keep everything running smoothly. Restores driver assist functionality on specific VINs that may have a configuration mismatch with the server."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["IPMA"],
+            "powerupVersion": "23-PU0407-BCDC-FX",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-09-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps."
                 }
             ],
