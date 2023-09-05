@@ -31,16 +31,16 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
-                    "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps."
+                    "text": "Updates are bringing the heat. We've made some enhancements to help while you're out on a road trip.  First, if you're heading toward a DC fast charging station (using your vehicle's navigation), your battery will now start to warm up within 20 miles of your destination. This allows the battery to accept a charge at a faster rate in cold weather when you have excess heater capacity, getting you back on the road. Remember, you must enter your fast charging station into the Navigation System in order for preheating to work.  We've also made a quality improvement to the power steering control. There is nothing you need to do."
                 }
             ],
-            "inhibitMinutes": 10,
-            "inhibitRequired": true,
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
             "modelYears": [],
-            "models": ["F-150"],
+            "models": ["Mustang Mach-E"],
             "modifiedBy": "@tonesto7",
             "modifiedDate": "2023-08-27T14:58:00.000Z",
-            "modulesUpdated": ["ABS", "PCM", "BECM", "SOBDMC"],
+            "modulesUpdated": ["GWM"],
             "powerupVersion": "5.1.1",
             "releaseDateEu": "",
             "releaseDateUs": "2023-08-01",
