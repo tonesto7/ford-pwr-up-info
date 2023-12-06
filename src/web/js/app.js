@@ -45,6 +45,13 @@ mainApp.controller("PwrUpInfoController", [
             return resp;
         };
 
+        $scope.formatPowerupVersion = function (powerupVersion) {
+            if (Array.isArray(powerupVersion)) {
+                return powerupVersion.join(", "); // Join the array elements with a comma and a space
+            }
+            return powerupVersion; // If it's not an array, return as is
+        };
+
         $scope.getInhibitTagCls = (inhibit) => {
             return inhibit ? "badge-inhibit-enabled-tags" : "badge-inhibit-disabled-tags";
         };

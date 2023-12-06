@@ -7,9 +7,616 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
-                    "text": "Some minor fine-tuning to keep everything running smoothly. Restores driver assist functionality on specific VINs that may have a configuration mismatch with the server."
+                    "text": "2023 Models: Several modifications have been made to improve the quality of your instrument panel and other features. There is nothing you need to do."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "2022 Models: We've made an enhancement to let you know that if your frunk is ever ajar, you will now hear a louder chime. This was done to help ensure that you'll know to take action if ever necessary."
                 }
             ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "6.8.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-12-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We've made a Software Update that allows you to open your frunk remotely using the FordPass App. That's right. Now you can control your frunk from the palm of your hand. Plus, you'll also receive a Frunk Ajar warning if you try to drive away without your Frunk being fully closed."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["GFM"],
+            "powerupVersion": "6.7.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
+                }
+            ],
+            "inhibitMinutes": 10,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["OBCC"],
+            "powerupVersion": "23-PU0722-DC-CHG3",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We've made background improvements to your vehicle's software to enhance your overall experience."
+                }
+            ],
+            "inhibitMinutes": 22,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["ABS", "BECM", "PCM", "SOBDMA", "SOBDMB", "SOBDMC"],
+            "powerupVersion": "6.6.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A small adjustment so your vehicle can prepare for future updates."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": ["2021", "2022", "2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["SCCM"],
+            "powerupVersion": "6.5.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Refinements have been made to help improve connectivity."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021", "2022", "2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "6.4.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford Power-Up delivers the latest software updates to your vehicle. While many updates happen seamlessly in the background as you're driving, some updates look to your preferred schedule to install the latest while you're not using your vehicle (like overnight). Go to Settings, then Software Updates to set your schedule."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "To make sure that these non-driveable updates install correctly please ensure that your vehicle is in park, ignition is off, the lights are off, doors, windows, trunk and frunk are closed, and the brake pedal is not being pressed."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["SCCM"],
+            "powerupVersion": "6.4.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "4.0.23291",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "New, Clean Design If your vehicle has an 8\" or 12\" SYNC® screen, you may notice that it looks a little different today. That's because we just unveiled a new design that will help you find your favorite menu settings."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Selectable Drive Modes We've made some changes to the messaging for different drive modes. You should not see a fault message if a drive mode times out."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improvement to conditions not met alerts With this update, you'll now receive new pop-up alerts to inform you when a condition is not being met so that you can take the required action to receive your vehicle software update. For a non-drivable update, conditions may include that your vehicle is parked, it's not running, all the lights are off, doors and trunk are closed, and you're not pressing the brake pedal."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford BlueCruise Map Update If your vehicle is equipped with Ford BlueCruise."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021", "2022", "2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "6.3.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Easy on the eyes. You may have noticed that things look a little different on your vehicle screen today. That's because we're continuing to improve the modern design to make it simple to navigate and find what you're looking for. A few changes you'll notice include a smaller top bar, and we've moved some icons to make it easier to view. A dedicated user profile button has even been added. Smart Changes to Phone As A Key Setting up Phone As A Key just got easier. That's because you can now edit and save your Phone As A Key settings from the driver profile screen in-vehicle. To manage your Phone As A Key settings in your driver profile, go to Personal Profile > Edit > Phone in your vehicle's SYNC® screen. You may also set up automatic sign-in so that your driver profile is ready as soon as you enter the vehicle. Step up to the mic All Ford F-150 Lightning customers are now able to share instant feedback with Ford, by recording and sending voice feedback from the convenience of your vehicle. Available in the U.S. only and requires FordPass® Connect modem activation. We will use this feedback to help make quality and design improvements. If you have a safety or service-related concern, please contact your dealer or the Customer Relationship Center. To get started, simply go to the Features tab or App screen in-vehicle and tap on Record Feedback. We look forward to hearing from you. Details matter This update helps make it easy for you to review your charging session summary, including the state of charge, cost, distance added, charge time and even the balance on your subscription (if applicable)."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Selectable Drive Modes We've made some changes to the messaging for different drive modes. You should not see a fault message if a drive mode times out."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Improvement to conditions not met alerts With this update, you'll now receive new pop-up alerts to inform you when a condition is not being met so that you can take the required action to receive your vehicle software update. For a non-drivable update, conditions may include that your vehicle is parked, it's not running, all the lights are off, doors and trunk are closed, and you're not pressing the brake pedal."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford BlueCruise Map Update If your vehicle is equipped with Ford BlueCruise."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "6.3.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Intelligent Range Update... For more accurate range predictions, our newly enhanced Intelligent Range works with your Ford Navigation System by factoring in elements like traffic speed, external temperature and hill grades to the route you have selected. Travel with confidence knowing you have what you need to get where you're going."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Europe: Improvements and fixes.  This update brings optimization of vehicle connectivity (FordPass Connect) as well as adjustments and fixes to the system for better stability."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "6.3.0",
+            "releaseDateEu": "2023-11-01",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Small changes here and there. Ongoing updates like this help you enjoy the best possible version of your F-150® truck. Enjoy."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "6.2.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "If you recently received the 6.2.0 update, we've just released version 6.2.1 with even more enhancements to improve your driving experience."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": ["6.2.1", "23-PU1103-NAT-VCE"],
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Easy on the eyes. You may have noticed that things look a little different on your vehicle screen today. That's because we're continuing to improve the modern design to make it simple to navigate and find what you're looking for. A few changes you'll notice include a smaller top bar and we've moved some icons to make it easier to view. A dedicated user profile button has even been added."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "EStep up to the mic, please! For this latest Ford Power-Up software update, we listened to your feedback and made it easier for you to continue to share your experiences by recording and sending voice feedback from the convenience of your vehicle. Prior to this update, access for this feature was in the Settings-General menu. But now it's been moved to the App screen and will be available whenever your vehicle is activated in FordPass. Look for the new Record Feedback microphone icon — and continue to let us know what you really think"
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "No need to sound the alarm! This update will allow you to easily turn the motion sensor alarm OFF from the vehicle settings screen or alert POPUP. That means when you have a passenger or pet inside, they can move around while you do the same outside."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "6.2.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-09-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford Bluecruise Map Update: If your vehicle is equipped with BC, we've made an update to your BC maps expiration."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["Mustang Mach-E"],
+                    "text": "Intelligent Backup Power: We've made an update to help ensure a smooth experience when using your vehicle for power. If your connection is disrupted, the system will search for another before timing out."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": ["F-150", "Lightning"],
+                    "text": "Intelligent Backup Power: We've made an update to help ensure a smooth experience when using your vehicle for power. If your connection is disrupted, the system will search for another before timing out."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["Lightning", "F-150", "Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "6.1.0",
+            "releaseDateEu": "2023-11-01",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Small changes here and there. Ongoing updates like this help you enjoy the best possible version of your F-150® truck. Enjoy."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": ["2021"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["BCM"],
+            "powerupVersion": "2.7.4",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-16",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "This update addresses the issue where radio presets have been affected during vehicle software updates."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["ACM"],
+            "powerupVersion": "23-PU0110-RAD-PS",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We updated your PCM to fix a potential no-start condition."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["PCM"],
+            "powerupVersion": "Recall 21B37",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "If you recently received the 6.2.0 update, we've just re-released the same version with a few enhancements to improve your driving experience. Display Updates You may have noticed that things look a little different on your vehicle screen today. That's because we're continuing to improve the modern design to make it simple to navigate and find what you're looking for. A few changes you'll notice include a smaller top bar and we've moved some icons to make it easier to view. A dedicated user profile button has even been added. Record Feedback For this latest Ford Power-Up software update, we listened to your feedback and made it easier for you to continue to share your experiences by recording and sending voice feedback from the convenience of your vehicle. Prior to this update, access for this feature was in the Settings-General menu. But now it's been moved to the App screen and will be available whenever your vehicle is activated in FordPass"
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "23-PU1103-NAT-VCE",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A small adjustment so your vehicle can prepare for future updates."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021", "2022", "2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "6.2.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "4.0.23167 Rev 926",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "The functionality of your Rear View Camera has been improved. We've added a Picture-in-Picture (PiP) capability to the Trailer Reverse Guidance feature, so you can simultaneously monitor two camera views. This split view allows you to view Trailer Reverse Guidance cameras and your choice of either the Center High-Mounted Stop Lamp camera view or the trailer auxiliary camera (bought and installed separately) at the same time to ensure the best visibility while backing your trailer into the tightest of spots."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "4.3.6",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+
+        {
+            "apimVersion": "v4.0.23159",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Update to digital owner's manual."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Lightning"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "23-PU0274-DOM-RS",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-08-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "4.0.23159",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We made sure that what you need to know is in there and easy to find. Go see it on Ford.com/support or in the FordPass® App. You can also access it in your vehicle through the SYNC®4 touchscreen under the Features tab or through the SYNC® 4A touchscreen under Apps."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": ["2021", "2022", "2023"],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "22-PU0724-DOM-RS",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Some minor fine-tuning to keep everything running smoothly. Restores driver assist functionality on specific VINs that may have a configuration mismatch with the server." }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": ["2021"],
@@ -18,7 +625,7 @@
             "modulesUpdated": ["IPMA"],
             "powerupVersion": "23-PU0407-BCDC-FX",
             "releaseDateEu": "",
-            "releaseDateUs": "2023-09-01",
+            "releaseDateUs": "2023-08-01",
             "submitDate": "2023-09-05T12:52:00.000Z",
             "submittedBy": "",
             "updateMethod": "OTA",
@@ -51,14 +658,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "A few modifictions were made to help improve the illuminated malfunction indicator lamps." }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": [],
@@ -76,14 +676,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "A few adjustments have been made to imporve yout Pro Power Onboard, allowing for an alert that let's you know to close the outlet cover to avoid interference with shifting."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "A few adjustments have been made to imporve yout Pro Power Onboard, allowing for an alert that let's you know to close the outlet cover to avoid interference with shifting." }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": [],
@@ -101,14 +694,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Static-free inbound. If your vehicle is equipped with a B&O system, your vehicle has been updated to remove unexpected static."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Static-free inbound. If your vehicle is equipped with a B&O system, your vehicle has been updated to remove unexpected static." }],
             "inhibitMinutes": 5,
             "inhibitRequired": true,
             "modelYears": [],
@@ -126,14 +712,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Smart Changes. Just a quick note to let you know some refinements have been made. These will make your vehicle better prepared to receive future updates that are more complex."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Smart Changes. Just a quick note to let you know some refinements have been made. These will make your vehicle better prepared to receive future updates that are more complex." }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": [],
@@ -151,14 +730,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Improved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance." }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": [],
@@ -176,14 +748,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Customer Satisfaction Program 21B36: We fine-tuned your Phone As A Key software to help improve reliability and reduce potential Bluetooth disconnection when unlocking or starting your vehicle. This completes customer satisfaction program 21B36."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Customer Satisfaction Program 21B36: We fine-tuned your Phone As A Key software to help improve reliability and reduce potential Bluetooth disconnection when unlocking or starting your vehicle. This completes customer satisfaction program 21B36." }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": [],
@@ -227,36 +792,11 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "While you may have seen this update before, we're resending to ensure some housekeeping features are included to help further enhance your user experience."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "SYNC update to support public WiFi"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Apple Carplay 'easy listening improvements'"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Video streaming apps for US vehicles: YouTube, NBC News, NBC Today"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "New games: Bridge Battle and Parking Lot"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "While you may have seen this update before, we're resending to ensure some housekeeping features are included to help further enhance your user experience." },
+                { "link": "", "linkText": "", "models": [], "text": "SYNC update to support public WiFi" },
+                { "link": "", "linkText": "", "models": [], "text": "Apple Carplay 'easy listening improvements'" },
+                { "link": "", "linkText": "", "models": [], "text": "Video streaming apps for US vehicles: YouTube, NBC News, NBC Today" },
+                { "link": "", "linkText": "", "models": [], "text": "New games: Bridge Battle and Parking Lot" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -300,14 +840,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor updates here and there. Some minor fine-tuning so your vehicle can easily install the more detailed updates coming down the road." }],
             "inhibitMinutes": 145,
             "inhibitRequired": true,
             "modelYears": ["2021"],
@@ -330,7 +863,7 @@
                     "link": "",
                     "linkText": "",
                     "models": ["F-150"],
-                    "text": "A vehicle with a view. The functionality of your Rear View Camera has been improved. Some camera views are now available while your vehicle is in motion. To monitor your cargo area or trailer, simply press your camera button and use the center high-mounted stop lamp camera (if equipped) or Rear View Camera, or watch the view from a trailer auxiliary camera (bought and installed separately). For more information on these features, visit Ford.com/support or your digital Owner’s Manual."
+                    "text": "A vehicle with a view. The functionality of your Rear View Camera has been improved. Some camera views are now available while your vehicle is in motion. To monitor your cargo area or trailer, simply press your camera button and use the center high-mounted stop lamp camera (if equipped) or Rear View Camera, or watch the view from a trailer auxiliary camera (bought and installed separately). For more information on these features, visit Ford.com/support or your digital Owner's Manual."
                 },
                 {
                     "link": "",
@@ -356,14 +889,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "We've recently completed an improvement to the trailer and tailgate settings for your Ford F-150® truck."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "We've recently completed an improvement to the trailer and tailgate settings for your Ford F-150® truck." }],
             "inhibitMinutes": 5,
             "inhibitRequired": true,
             "modelYears": ["2021"],
@@ -381,14 +907,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future." }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": ["2021"],
@@ -407,24 +926,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Displayed range has been adjusted to reflect what is possible with optimal driving practices."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "We upgraded software on your vehicle to protect high-voltage battery components from excessive heat generated during DC fast charging and repeated full throttle events. This completes safety recall 22S41."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "For those customers who received a letter about recall 22S29, this update also fixes a software glitch in your vehicle that could potentially cause unintended acceleration, unintended deceleration or unintended vehicle movement. This completes safety recall 22S29."
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Displayed range has been adjusted to reflect what is possible with optimal driving practices." },
+                { "link": "", "linkText": "", "models": [], "text": "We upgraded software on your vehicle to protect high-voltage battery components from excessive heat generated during DC fast charging and repeated full throttle events. This completes safety recall 22S41." },
+                { "link": "", "linkText": "", "models": [], "text": "For those customers who received a letter about recall 22S29, this update also fixes a software glitch in your vehicle that could potentially cause unintended acceleration, unintended deceleration or unintended vehicle movement. This completes safety recall 22S29." }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
@@ -443,14 +947,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Enhancements made to your heating system (HVAC) to the heat capability and help your vehicle respond to humidity.  This should reduce fogging under certain conditions"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Enhancements made to your heating system (HVAC) to the heat capability and help your vehicle respond to humidity.  This should reduce fogging under certain conditions" }],
             "inhibitMinutes": 15,
             "inhibitRequired": true,
             "modelYears": [],
@@ -466,17 +963,9 @@
             "updateMethod": "OTA",
             "wifiRequired": false
         },
-
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added In-Vehicle Voice Feedback to share instant feedback with Ford"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Added In-Vehicle Voice Feedback to share instant feedback with Ford" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": ["2021", "2022"],
@@ -495,24 +984,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E"],
-                    "text": "Improvement/adjustment of previous OTA 4.1.3"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E"],
-                    "text": "Smart changes Here and There"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150", "Mustang Mach-E"],
-                    "text": "Update allows you to connect to public Wi-Fi hotspot throught SYNC"
-                }
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E"], "text": "Improvement/adjustment of previous OTA 4.1.3" },
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E"], "text": "Smart changes Here and There" },
+                { "link": "", "linkText": "", "models": ["F-150", "Mustang Mach-E"], "text": "Update allows you to connect to public Wi-Fi hotspot throught SYNC" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -532,18 +1006,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Lightning Lariat", "Lightning Platinum"],
-                    "text": "Reissue | New games: Bridge Battle and Parking Lot"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Lightning Lariat", "Lightning Platinum"],
-                    "text": "Reissue | Some housekeeping features are included to help further enhance your user experience"
-                }
+                { "link": "", "linkText": "", "models": ["Lightning Lariat", "Lightning Platinum"], "text": "Reissue | New games: Bridge Battle and Parking Lot" },
+                { "link": "", "linkText": "", "models": ["Lightning Lariat", "Lightning Platinum"], "text": "Reissue | Some housekeeping features are included to help further enhance your user experience" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -563,72 +1027,17 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Removes erroneous 'Air Dam Fault' pop-up message"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved accuracy of displayed range after AC charging"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Correction a condition where for cabin-preconditioning & heated steering wheel may not be working properly"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved route based energy predictions to recommended battery cooling based on expected thermal loading."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Charger locking pin robustness improvement (retract while off plug)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved 12V battery drain by decreasing the frequency of the vehicle waking up."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Shorter time to engage electronic park break after drivers door is opened."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Displayed motor temperature will now increase more gradually."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Distance to Empty algorithm improvement."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improvement to calibration of brake fluid viscosity algorithm to prevent false DTC detection at cold weather"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved brake bleed quality"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Removes erroneous 'Air Dam Fault' pop-up message" },
+                { "link": "", "linkText": "", "models": [], "text": "Improved accuracy of displayed range after AC charging" },
+                { "link": "", "linkText": "", "models": [], "text": "Correction a condition where for cabin-preconditioning & heated steering wheel may not be working properly" },
+                { "link": "", "linkText": "", "models": [], "text": "Improved route based energy predictions to recommended battery cooling based on expected thermal loading." },
+                { "link": "", "linkText": "", "models": [], "text": "Charger locking pin robustness improvement (retract while off plug)" },
+                { "link": "", "linkText": "", "models": [], "text": "Improved 12V battery drain by decreasing the frequency of the vehicle waking up." },
+                { "link": "", "linkText": "", "models": [], "text": "Shorter time to engage electronic park break after drivers door is opened." },
+                { "link": "", "linkText": "", "models": [], "text": "Displayed motor temperature will now increase more gradually." },
+                { "link": "", "linkText": "", "models": [], "text": "Distance to Empty algorithm improvement." },
+                { "link": "", "linkText": "", "models": [], "text": "Improvement to calibration of brake fluid viscosity algorithm to prevent false DTC detection at cold weather" },
+                { "link": "", "linkText": "", "models": [], "text": "Improved brake bleed quality" }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
@@ -648,18 +1057,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movement."
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance."
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movement." },
+                { "link": "", "linkText": "", "models": [], "text": "Improved DC Fast Charging. We know how important DC Fast Charging is to you, so we've tweaked the charging module to improve reliability and performance." }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
@@ -678,14 +1077,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Ford Power-Up We’ve been busy working to make your experience the best it can be. Distance-to-Empty Improvement We updated the software on your truck to improve the accuracy of distance-to-empty measurement."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Ford Power-Up We've been busy working to make your experience the best it can be. Distance-to-Empty Improvement We updated the software on your truck to improve the accuracy of distance-to-empty measurement." }],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
             "modelYears": ["2022"],
@@ -704,18 +1096,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Adds camera icon to header bar for 2023MY vehicles"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improvements to Apple Carplay; changes to in-vehicle scheduling for updates."
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Adds camera icon to header bar for 2023MY vehicles" },
+                { "link": "", "linkText": "", "models": [], "text": "Improvements to Apple Carplay; changes to in-vehicle scheduling for updates." }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -734,14 +1116,7 @@
         },
         {
             "apimVersion": "v4.0.23014",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex. Sync 23014"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "A small adjustment so your vechicle can prepare for furture updates that are more complex. Sync 23014" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": ["2023"],
@@ -760,30 +1135,10 @@
         {
             "apimVersion": "v4.0.23031",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improvement/adjustment of previous OTA 4.1.2"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "SYNC updated to Version 23031 Rev. 713"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E", "Lightning"],
-                    "text": "Volume knob enables control of cabin temperature, fan speed and heated seats"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E", "Lightning"],
-                    "text": "New games: Bridge Battle and Parking Lot"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Improvement/adjustment of previous OTA 4.1.2" },
+                { "link": "", "linkText": "", "models": [], "text": "SYNC updated to Version 23031 Rev. 713" },
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E", "Lightning"], "text": "Volume knob enables control of cabin temperature, fan speed and heated seats" },
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E", "Lightning"], "text": "New games: Bridge Battle and Parking Lot" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -802,14 +1157,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "More enhancements are on the way. We've made some minor updates to keep everything running smoothly, including improvements to FordPass® Connect modem"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "More enhancements are on the way. We've made some minor updates to keep everything running smoothly, including improvements to FordPass® Connect modem" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": ["2023"],
@@ -828,24 +1176,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improvement/adjustment of previous OTA 4.1.1"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "This particular update will set you up for all future ones to come. Think of it as the update that opens the door for all the others to enter through"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Ability to enter your vehicle using your Key Fob during a non-drivable update"
-                },
+                { "link": "", "linkText": "", "models": [], "text": "Improvement/adjustment of previous OTA 4.1.1" },
+                { "link": "", "linkText": "", "models": [], "text": "This particular update will set you up for all future ones to come. Think of it as the update that opens the door for all the others to enter through" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Ability to enter your vehicle using your Key Fob during a non-drivable update" },
                 {
                     "link": "",
                     "linkText": "",
@@ -870,14 +1203,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "SYNC update to support public WiFi"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "SYNC update to support public WiFi" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -896,30 +1222,10 @@
         {
             "apimVersion": "v4.0.22326",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Volume knob enables control of cabin temperature, fan speed and heated seats"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "New games: Bridge Battle and Parking Lot"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "New SYNC UI design"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "SYNC updated to Version 22326 Rev. 640"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Volume knob enables control of cabin temperature, fan speed and heated seats" },
+                { "link": "", "linkText": "", "models": [], "text": "New games: Bridge Battle and Parking Lot" },
+                { "link": "", "linkText": "", "models": [], "text": "New SYNC UI design" },
+                { "link": "", "linkText": "", "models": [], "text": "SYNC updated to Version 22326 Rev. 640" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -939,12 +1245,7 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Adds ability to enter your vehicle using your Key Fob during a non-drivable update"
-                },
+                { "link": "", "linkText": "", "models": [], "text": "Adds ability to enter your vehicle using your Key Fob during a non-drivable update" },
                 {
                     "link": "",
                     "linkText": "",
@@ -970,18 +1271,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved the accuracy of distance-to-empty measurement"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added en-route battery pre-conditioning when utilizing the built-in navigation system"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Improved the accuracy of distance-to-empty measurement" },
+                { "link": "", "linkText": "", "models": [], "text": "Added en-route battery pre-conditioning when utilizing the built-in navigation system" }
             ],
             "inhibitMinutes": 25,
             "inhibitRequired": true,
@@ -1001,18 +1292,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Customer Satisfaction Program 22B28"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "HVAC update to improve the heat capability at or below -15C/5F"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Customer Satisfaction Program 22B28" },
+                { "link": "", "linkText": "", "models": [], "text": "HVAC update to improve the heat capability at or below -15C/5F" }
             ],
             "inhibitMinutes": 15,
             "inhibitRequired": true,
@@ -1032,18 +1313,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Customer Satisfaction Program 21B36"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fine tuning Phone As A Key software"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Customer Satisfaction Program 21B36" },
+                { "link": "", "linkText": "", "models": [], "text": "Fine tuning Phone As A Key software" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1062,14 +1333,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor fine-tuning"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor fine-tuning" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1087,14 +1351,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor adjustment. Support for two Bluetooth phones simultaneously"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor adjustment. Support for two Bluetooth phones simultaneously" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1113,18 +1370,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Video streaming apps for US vehicles: YouTube, NBC News, NBC Today"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Video streaming requires a Wi-Fi connection or an active Ford Streaming Connected Service plan"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Video streaming apps for US vehicles: YouTube, NBC News, NBC Today" },
+                { "link": "", "linkText": "", "models": [], "text": "Video streaming requires a Wi-Fi connection or an active Ford Streaming Connected Service plan" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1143,14 +1390,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Dynamic Screen Resizing When you're using Android Auto™ or Apple CarPlay®, you can now make them appear on your touchscreen in the size you prefer"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Dynamic Screen Resizing When you're using Android Auto™ or Apple CarPlay®, you can now make them appear on your touchscreen in the size you prefer" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": ["2022"],
@@ -1169,30 +1409,10 @@
         {
             "apimVersion": "v4.0.22228",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E", "Lightning"],
-                    "text": "Additional games: Lane Change, Sudoku, Jigsaw Puzzles"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "After this update completes, Ford provisions Amazon Alexa feature activation in the primary owner's Connected Services account and the vehicle enables built-in Alexa support shortly afterward"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Enables full screen CarPlay & Android Auto"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "SYNC new design, updated to Version 22228 Rev. 539"
-                }
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E", "Lightning"], "text": "Additional games: Lane Change, Sudoku, Jigsaw Puzzles" },
+                { "link": "", "linkText": "", "models": [], "text": "After this update completes, Ford provisions Amazon Alexa feature activation in the primary owner's Connected Services account and the vehicle enables built-in Alexa support shortly afterward" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Enables full screen CarPlay & Android Auto" },
+                { "link": "", "linkText": "", "models": [], "text": "SYNC new design, updated to Version 22228 Rev. 539" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1211,14 +1431,7 @@
         },
         {
             "apimVersion": "v4.0.22192",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Preparing your vehicle for Alexa Built-in"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Preparing your vehicle for Alexa Built-in" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1236,14 +1449,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor GWM Update"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor GWM Update" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1261,14 +1467,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Preparing your vehicle for Alexa Built-in"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Preparing your vehicle for Alexa Built-in" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1286,14 +1485,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "A small adjustment so your vehicle can prepare for future updates that are more complex"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "A small adjustment so your vehicle can prepare for future updates that are more complex" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1311,14 +1503,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor Adjustments"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor Adjustments" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1336,14 +1521,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added horn and lights feature in FordPass without Bluetooth connection"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Added horn and lights feature in FordPass without Bluetooth connection" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1362,18 +1540,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "The functionality of rear-view cameras has been improved"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Added picture in picture capability to Trailer reverse guidance. Some camera views are now available while driving"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "The functionality of rear-view cameras has been improved" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Added picture in picture capability to Trailer reverse guidance. Some camera views are now available while driving" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1393,24 +1561,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Prepares for future power steering control module (PSCM) OTA updates by ensuring that a failure to de-inhibit condition is prevented"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor Adjustments"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "BlueCruise map updates"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Prepares for future power steering control module (PSCM) OTA updates by ensuring that a failure to de-inhibit condition is prevented" },
+                { "link": "", "linkText": "", "models": [], "text": "Minor Adjustments" },
+                { "link": "", "linkText": "", "models": [], "text": "BlueCruise map updates" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1430,24 +1583,9 @@
         {
             "apimVersion": "v4.0.22179",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Alexa Built-in"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Climate control touchscreen options and menus are improved for easier and faster access"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated digital owner's manual"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Alexa Built-in" },
+                { "link": "", "linkText": "", "models": [], "text": "Climate control touchscreen options and menus are improved for easier and faster access" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated digital owner's manual" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1467,42 +1605,12 @@
         {
             "apimVersion": "v4.0.22179",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Second update in the 3 update series to add Alexa Built-in"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Advanced dual phone (concurrent access to up to two Bluetooth connected phones for incoming calls, contacts, text messages, emails, and more)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Preparation for Ford Streaming (music and podcasts) subscription option"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Additional games: Lane Change, Sudoku, Jigsaw Puzzles"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Android Auto can be expanded to fill more of the display (it now resizes to fill either of the two view expansion states)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated SYNC to Software Version: 22179_PRODUCT Revision: 478"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Second update in the 3 update series to add Alexa Built-in" },
+                { "link": "", "linkText": "", "models": [], "text": "Advanced dual phone (concurrent access to up to two Bluetooth connected phones for incoming calls, contacts, text messages, emails, and more)" },
+                { "link": "", "linkText": "", "models": [], "text": "Preparation for Ford Streaming (music and podcasts) subscription option" },
+                { "link": "", "linkText": "", "models": [], "text": "Additional games: Lane Change, Sudoku, Jigsaw Puzzles" },
+                { "link": "", "linkText": "", "models": [], "text": "Android Auto can be expanded to fill more of the display (it now resizes to fill either of the two view expansion states)" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated SYNC to Software Version: 22179_PRODUCT Revision: 478" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1522,30 +1630,10 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Advanced dual phone (concurrent access to up to two Bluetooth connected phones for incoming calls, contacts, text messages, emails, and more)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated digital owner's manual"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Additional game: DoubleSum (requires SYNC 4A)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Addresses issue to ensure that payload limit warning (requires Onboard Scales function) appears on top of other open panes"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Advanced dual phone (concurrent access to up to two Bluetooth connected phones for incoming calls, contacts, text messages, emails, and more)" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated digital owner's manual" },
+                { "link": "", "linkText": "", "models": [], "text": "Additional game: DoubleSum (requires SYNC 4A)" },
+                { "link": "", "linkText": "", "models": [], "text": "Addresses issue to ensure that payload limit warning (requires Onboard Scales function) appears on top of other open panes" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1564,14 +1652,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "First update in the 3 update series to add Alexa Built-in"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "First update in the 3 update series to add Alexa Built-in" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1589,14 +1670,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor adjustments"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor adjustments" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1615,18 +1689,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Update to address recalls 22S41 & 22S29"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Includes all previous powertrain fixes including faster charging curve, battery capacity increase, and brake pedal feel"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Update to address recalls 22S41 & 22S29" },
+                { "link": "", "linkText": "", "models": [], "text": "Includes all previous powertrain fixes including faster charging curve, battery capacity increase, and brake pedal feel" }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
@@ -1645,14 +1709,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Improved DC Fast Charging"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Improved DC Fast Charging" }],
             "inhibitMinutes": 10,
             "inhibitRequired": true,
             "modelYears": [],
@@ -1670,14 +1727,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Update to prevent erroneous DTC U1A01:93 from being set in the TCU"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Update to prevent erroneous DTC U1A01:93 from being set in the TCU" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1695,14 +1745,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor adjustment to prepare for future updates"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor adjustment to prepare for future updates" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1721,30 +1764,10 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Brake pedal feel is modified to allow for smoother braking"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Some additional minor fine-tuning here and there"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Addresses recall 22S41, to protect high-voltage battery components (contactors) from excessive heat generated during DC fast charging and repeated full throttle events"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movement"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Brake pedal feel is modified to allow for smoother braking" },
+                { "link": "", "linkText": "", "models": [], "text": "Some additional minor fine-tuning here and there" },
+                { "link": "", "linkText": "", "models": [], "text": "Addresses recall 22S41, to protect high-voltage battery components (contactors) from excessive heat generated during DC fast charging and repeated full throttle events" },
+                { "link": "", "linkText": "", "models": [], "text": "Addresses recall 22S29 for applicable vehicles, fixing a software glitch that could potentially cause unintended acceleration, deceleration, or vehicle movement" }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
@@ -1763,14 +1786,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates here and there. Just small stuff to keep everything running smoothly"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Minor updates here and there. Just small stuff to keep everything running smoothly" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -1795,12 +1811,7 @@
                     "models": [],
                     "text": " Your vehicle can talk (Note that you may have already received an earlier version of Ford Assistant but this update is an enhancement.) Ever wish you could talk to your truck? Now you can with Ford Assistant. Just say, “OK, Ford” to start the conversation, then ask things like \"How does my cruise control work?\", or \"What does Pro Trailer Backup Assist do?\". Your assistant will tell you what you need to know"
                 },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates here and there. Just small stuff to keep everything running smoothly"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Minor updates here and there. Just small stuff to keep everything running smoothly" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1820,30 +1831,10 @@
         {
             "apimVersion": "v4.0.22095",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor adjustments"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Some camera views are now available while the vehicle is in motion"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added Picture-in-Picture capability to the Trailer Reverse Guidance feature"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated SYNC to Software Version: 22095_PRODUCT Revision: 421"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Minor adjustments" },
+                { "link": "", "linkText": "", "models": [], "text": "Some camera views are now available while the vehicle is in motion" },
+                { "link": "", "linkText": "", "models": [], "text": "Added Picture-in-Picture capability to the Trailer Reverse Guidance feature" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated SYNC to Software Version: 22095_PRODUCT Revision: 421" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1863,24 +1854,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Enabled BlueCruise hands free driving feature"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates \"Here and There\""
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Sixth update of several to enable BlueCruise"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Enabled BlueCruise hands free driving feature" },
+                { "link": "", "linkText": "", "models": [], "text": "Minor updates \"Here and There\"" },
+                { "link": "", "linkText": "", "models": [], "text": "Sixth update of several to enable BlueCruise" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1900,36 +1876,11 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Enabled driver attention monitoring camera while cruise control and lane centering are enabled, with distraction messaging to driver \"Watch the road\""
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E"],
-                    "text": "Removed the nonfunctioning frunk button"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor fine-tuning to keep everything up to date"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fifth update of several to enable BlueCruise"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Pro Trailer Backup Assist refinements (Allows selection of the checkered target sticker or the yaw rate sensor to detect trailer angle)"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Enabled driver attention monitoring camera while cruise control and lane centering are enabled, with distraction messaging to driver \"Watch the road\"" },
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E"], "text": "Removed the nonfunctioning frunk button" },
+                { "link": "", "linkText": "", "models": [], "text": "Minor fine-tuning to keep everything up to date" },
+                { "link": "", "linkText": "", "models": [], "text": "Fifth update of several to enable BlueCruise" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Pro Trailer Backup Assist refinements (Allows selection of the checkered target sticker or the yaw rate sensor to detect trailer angle)" }
             ],
             "inhibitMinutes": 145,
             "inhibitRequired": true,
@@ -1949,24 +1900,9 @@
         {
             "apimVersion": "v4.0.22028",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates \"Here and There\""
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fourth update of several to enable BlueCruise"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated SYNC to Software Version: 22028_PRODUCT Revision: 358"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Minor updates \"Here and There\"" },
+                { "link": "", "linkText": "", "models": [], "text": "Fourth update of several to enable BlueCruise" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated SYNC to Software Version: 22028_PRODUCT Revision: 358" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -1986,18 +1922,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Small adjustments so your vehicle can prepare for future updates"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Third update of several to enable BlueCruise"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Small adjustments so your vehicle can prepare for future updates" },
+                { "link": "", "linkText": "", "models": [], "text": "Third update of several to enable BlueCruise" }
             ],
             "inhibitMinutes": 30,
             "inhibitRequired": true,
@@ -2017,42 +1943,12 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added an information bar on the right side of Instrument cluster messages"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added tenths of a mile to Instrument cluster odometer above 10,000mi"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added a snowflake on the Instrument cluster when the temperature drops below 4°C or 40°F"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates here and there"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fix 12V battery drain due to Instrument cluster backlight failing to turn off"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Second update of several to enable BlueCruise"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Added an information bar on the right side of Instrument cluster messages" },
+                { "link": "", "linkText": "", "models": [], "text": "Added tenths of a mile to Instrument cluster odometer above 10,000mi" },
+                { "link": "", "linkText": "", "models": [], "text": "Added a snowflake on the Instrument cluster when the temperature drops below 4°C or 40°F" },
+                { "link": "", "linkText": "", "models": [], "text": "Minor updates here and there" },
+                { "link": "", "linkText": "", "models": [], "text": "Fix 12V battery drain due to Instrument cluster backlight failing to turn off" },
+                { "link": "", "linkText": "", "models": [], "text": "Second update of several to enable BlueCruise" }
             ],
             "inhibitMinutes": 30,
             "inhibitRequired": true,
@@ -2072,30 +1968,10 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed the brake pedal feel to allow for smoother braking"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated the charging curve to increase charging speed above 80%"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor fine tuning \"Here and There\" to ensure things are running smoothly"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "First update of several to enable BlueCruise"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Fixed the brake pedal feel to allow for smoother braking" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated the charging curve to increase charging speed above 80%" },
+                { "link": "", "linkText": "", "models": [], "text": "Minor fine tuning \"Here and There\" to ensure things are running smoothly" },
+                { "link": "", "linkText": "", "models": [], "text": "First update of several to enable BlueCruise" }
             ],
             "inhibitMinutes": 35,
             "inhibitRequired": true,
@@ -2114,14 +1990,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed an issue with horn and lights feature in FordPass"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Fixed an issue with horn and lights feature in FordPass" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -2140,72 +2009,17 @@
         {
             "apimVersion": "v4.0.22087",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added Multi-Day OTA update scheduling for certain updates that require the vehicle to remain off for up to 30 minutes"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added \"Update Now\" function"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added Ford assistant. Activated by saying, \"OK, Ford\""
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added speed sign recognition to the driver assistance Adaptive Cruise Control sub-menu, replacing Intelligent Adaptive Cruise Control"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Trailer Light Check can be activated from the FordPass app and from SYNC"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added additional Apple CarPlay navigation info to the instrument cluster"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E"],
-                    "text": "Added EV routing for Apple Maps (iPhone reads vehicle and battery data via CarPlay)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed large format Apple CarPlay"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed issue causing inconsistent or incorrect display of an upcoming route step progress bar in the instrument cluster when using Android Auto navigation"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated SYNC to Software Version: 22087_PRODUCT Revision: 415"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Various user interface refinements, including a dismissal cue when sliding cards downwards and several organizational refinements to the navigation app"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Added Multi-Day OTA update scheduling for certain updates that require the vehicle to remain off for up to 30 minutes" },
+                { "link": "", "linkText": "", "models": [], "text": "Added \"Update Now\" function" },
+                { "link": "", "linkText": "", "models": [], "text": "Added Ford assistant. Activated by saying, \"OK, Ford\"" },
+                { "link": "", "linkText": "", "models": [], "text": "Added speed sign recognition to the driver assistance Adaptive Cruise Control sub-menu, replacing Intelligent Adaptive Cruise Control" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Trailer Light Check can be activated from the FordPass app and from SYNC" },
+                { "link": "", "linkText": "", "models": [], "text": "Added additional Apple CarPlay navigation info to the instrument cluster" },
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E"], "text": "Added EV routing for Apple Maps (iPhone reads vehicle and battery data via CarPlay)" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed large format Apple CarPlay" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed issue causing inconsistent or incorrect display of an upcoming route step progress bar in the instrument cluster when using Android Auto navigation" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated SYNC to Software Version: 22087_PRODUCT Revision: 415" },
+                { "link": "", "linkText": "", "models": [], "text": "Various user interface refinements, including a dismissal cue when sliding cards downwards and several organizational refinements to the navigation app" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -2225,24 +2039,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added horn and lights feature in FordPass"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Changes to update scheduling to allow for multi-day schedules"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Minor updates" },
+                { "link": "", "linkText": "", "models": [], "text": "Added horn and lights feature in FordPass" },
+                { "link": "", "linkText": "", "models": [], "text": "Changes to update scheduling to allow for multi-day schedules" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -2262,18 +2061,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor updates \"Here and There\" to keep things running smoothly"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Enabled the \"Horn & Lights\" button in FordPass via cellular"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Minor updates \"Here and There\" to keep things running smoothly" },
+                { "link": "", "linkText": "", "models": [], "text": "Enabled the \"Horn & Lights\" button in FordPass via cellular" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -2292,14 +2081,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added new SecuriAlert feature"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Added new SecuriAlert feature" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -2317,14 +2099,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Ford Power-Up Customer Satisfaction Program 21B37 We updated your Powertrain Control Module to fix a potential no-start condition.."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Ford Power-Up Customer Satisfaction Program 21B37 We updated your Powertrain Control Module to fix a potential no-start condition.." }],
             "inhibitMinutes": 5,
             "inhibitRequired": true,
             "modelYears": [],
@@ -2342,14 +2117,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Quality improvement to your trailer position/license plate lights."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Quality improvement to your trailer position/license plate lights." }],
             "inhibitMinutes": 5,
             "inhibitRequired": true,
             "modelYears": [],
@@ -2367,14 +2135,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "To help alleviate overheating, we made an update to improve your heated mirrors for optimal temperature"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "To help alleviate overheating, we made an update to improve your heated mirrors for optimal temperature" }],
             "inhibitMinutes": 20,
             "inhibitRequired": true,
             "modelYears": [],
@@ -2392,14 +2153,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added new trip logs (This version may not have been released)"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Added new trip logs (This version may not have been released)" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -2418,138 +2172,28 @@
         {
             "apimVersion": "v4.0.21174",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E"],
-                    "text": "Added remote vehicle setup using FordPass to setup profile preferences"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added navigation automatically making destination suggestions"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added new cloud connectivity combining voice commands with internet searches"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added Apple CarPlay displaying turn-by-turn navigation on the instrument cluster"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added pressing the volume knob to enable the calm screen"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added an \"X\" to the upper left corner to exit certain areas"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added large format mode for Apple CarPlay"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed ambient light graphic to no longer show the rear seats illuminated"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed SiriusXM Song/Artist alerts"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed audio settings resetting after a key cycle"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Android Auto connection concerns"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Sirius presets missing more than three pages after a key cycle"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Information and entertainment screen freezing/locking up"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Fixed Pro-Power Onboard messaging confusion after a tripped circuit breaker"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Wi-Fi keyboard defaulting to UK English"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed WMA files not playing properly from a USB device"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Intermittent blank information and entertainment screen"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Apple CarPlay connection concerns"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Fixed Bluetooth connectivity concerns"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Changed user profile icons on SiriusXM with L radio to larger size"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated SYNC to Software Version: 21174_PRODUCT Revision: 168"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Various bug fixes"
-                }
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E"], "text": "Added remote vehicle setup using FordPass to setup profile preferences" },
+                { "link": "", "linkText": "", "models": [], "text": "Added navigation automatically making destination suggestions" },
+                { "link": "", "linkText": "", "models": [], "text": "Added new cloud connectivity combining voice commands with internet searches" },
+                { "link": "", "linkText": "", "models": [], "text": "Added Apple CarPlay displaying turn-by-turn navigation on the instrument cluster" },
+                { "link": "", "linkText": "", "models": [], "text": "Added pressing the volume knob to enable the calm screen" },
+                { "link": "", "linkText": "", "models": [], "text": "Added an \"X\" to the upper left corner to exit certain areas" },
+                { "link": "", "linkText": "", "models": [], "text": "Added large format mode for Apple CarPlay" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed ambient light graphic to no longer show the rear seats illuminated" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed SiriusXM Song/Artist alerts" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed audio settings resetting after a key cycle" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Android Auto connection concerns" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Sirius presets missing more than three pages after a key cycle" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Information and entertainment screen freezing/locking up" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Fixed Pro-Power Onboard messaging confusion after a tripped circuit breaker" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Wi-Fi keyboard defaulting to UK English" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed WMA files not playing properly from a USB device" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Intermittent blank information and entertainment screen" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Apple CarPlay connection concerns" },
+                { "link": "", "linkText": "", "models": [], "text": "Fixed Bluetooth connectivity concerns" },
+                { "link": "", "linkText": "", "models": [], "text": "Changed user profile icons on SiriusXM with L radio to larger size" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated SYNC to Software Version: 21174_PRODUCT Revision: 168" },
+                { "link": "", "linkText": "", "models": [], "text": "Various bug fixes" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -2568,14 +2212,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Some Minor fine-tuning to keep everything running smoothly."
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Some Minor fine-tuning to keep everything running smoothly." }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": ["2021"],
@@ -2594,24 +2231,9 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Added SecuriAlert (sends an alert to FordPass app when a door is opened)"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Fine-tuned Pro Power Onboard"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Minor bug fixes and refinements"
-                }
+                { "link": "", "linkText": "", "models": [], "text": "Added SecuriAlert (sends an alert to FordPass app when a door is opened)" },
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Fine-tuned Pro Power Onboard" },
+                { "link": "", "linkText": "", "models": [], "text": "Minor bug fixes and refinements" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -2631,18 +2253,8 @@
         {
             "apimVersion": "v4.0.21139",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["Mustang Mach-E"],
-                    "text": "eCall software update"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Updated SYNC to Software Version: 21139_PRODUCT Revision: 263"
-                }
+                { "link": "", "linkText": "", "models": ["Mustang Mach-E"], "text": "eCall software update" },
+                { "link": "", "linkText": "", "models": [], "text": "Updated SYNC to Software Version: 21139_PRODUCT Revision: 263" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
@@ -2661,14 +2273,7 @@
         },
         {
             "apimVersion": "",
-            "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Bug fixes and minor refinements"
-                }
-            ],
+            "changes": [{ "link": "", "linkText": "", "models": [], "text": "Bug fixes and minor refinements" }],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
             "modelYears": [],
@@ -2687,18 +2292,8 @@
         {
             "apimVersion": "",
             "changes": [
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": ["F-150"],
-                    "text": "Corrects the issue with Zone Lighting battery concern"
-                },
-                {
-                    "link": "",
-                    "linkText": "",
-                    "models": [],
-                    "text": "Bug fixes and minor refinements"
-                }
+                { "link": "", "linkText": "", "models": ["F-150"], "text": "Corrects the issue with Zone Lighting battery concern" },
+                { "link": "", "linkText": "", "models": [], "text": "Bug fixes and minor refinements" }
             ],
             "inhibitMinutes": 0,
             "inhibitRequired": false,
