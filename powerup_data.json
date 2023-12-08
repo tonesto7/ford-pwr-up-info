@@ -7,6 +7,30 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Driver facing camera improvements.  Adds robustness to the Driver State Monitoring system and increases availibility of BlueCruise and reduces false eyes-off warnings."
+                }
+            ],
+            "inhibitMinutes": 38,
+            "inhibitRequired": true,
+            "modelYears": ["2022", "2023"],
+            "models": ["Mustang Mach-E"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["CMR"],
+            "powerupVersion": "6.13.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-12-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "2023 Models: Several modifications have been made to improve the quality of your instrument panel and other features. There is nothing you need to do."
                 },
                 {
