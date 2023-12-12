@@ -7,6 +7,60 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "We've made background improvements to improve your vehicle's software to enhance your overall experience."
+                }
+            ],
+            "inhibitMinutes": 20,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["DDM", "PDM"],
+            "powerupVersion": "23-PU0813-DOR-UP2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-12-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We've made background improvements to improve your vehicle's center display software to enhance your overall experience."
+                },
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "For vehicles equipped with BlueCruise this adds support for lane change assist in the cluster."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["IPC"],
+            "powerupVersion": "6.8.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-12-01",
+            "submitDate": "2023-09-05T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "Driver facing camera improvements.  Adds robustness to the Driver State Monitoring system and increases availibility of BlueCruise and reduces false eyes-off warnings."
                 }
             ],
