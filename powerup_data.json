@@ -618,7 +618,54 @@
             "updateMethod": "OTA",
             "wifiRequired": false
         },
-
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "This update helps allow passengers in the back seat to mirror their device onto the Rear Seat Entertainment screen using the available Wifi hotspot service within your vehicle."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Expedition"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "5.3.1",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-11-01",
+            "submitDate": "2023-12-28T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "If your Expedition® SUV is equipped with 15.5″ portrait screen, you’ll receive the following updates: Easy on the eyes You may have noticed that things look a little different on your vehicle screen today. That’s because we’re continuing to improve the modern design to make it simple to navigate and find what you’re looking for. A few changes you’ll notice include a smaller top bar and we’ve moved some icons to make it easier to view. A dedicated user profile button has even been added. Step up to the mic, please For this latest Ford Power-Up software update, we listened to your feedback and made it easier for you to continue to share your experiences by recording and sending voice feedback from the convenience of your vehicle. Prior to this update, access for this feature was in the Settings-General menu. But now it’s been moved to the App screen and will be available whenever your vehicle is activated in FordPass®. Look for the new Record Feedback microphone icon — and continue to let us know what you really think."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["Expedition"],
+            "modifiedBy": "@tonesto7",
+            "modulesUpdated": ["APIM"],
+            "powerupVersion": "5.2.1",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-10-01",
+            "submitDate": "2023-12-28T12:52:00.000Z",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
         {
             "apimVersion": "4.0.23167 Rev 926",
             "changes": [
@@ -643,7 +690,6 @@
             "updateMethod": "OTA",
             "wifiRequired": false
         },
-
         {
             "apimVersion": "v4.0.23159",
             "changes": [
