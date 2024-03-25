@@ -7,6 +7,198 @@
                     "link": "",
                     "linkText": "",
                     "models": [],
+                    "text": "Your vehicle's powertrain software has been updated to help prevent a possible error state where unnecessary messages may appear. • Your vehicle is now enhanced with improved stability during low-state-of-charge battery conditions, and you will get more reliable warnings in the driver display when low-state-of-charge conditions exist. • Your Anti-lock Braking System calibration has been optimized to help improve your vehicle’s performance."
+                }
+            ],
+            "inhibitMinutes": 20,
+            "inhibitRequired": true,
+            "modelYears": [2021],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["ABS", "PCM", "BECM", "SOBDMC"],
+            "powerupVersion": "23-PU0630-YAW-RT",
+            "releaseDateEu": "",
+            "releaseDateUs": "2024-03-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Advanced Driver Assistance System*Driver Monitoring System* • Your driver monitoring system has been upgraded, reducing false eyes-off warnings when you're using the hands-free feature for a more enjoyable drive"
+                }
+            ],
+            "inhibitMinutes": 25,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["CMR"],
+            "powerupVersion": "24-PU0105-CMR-FX",
+            "releaseDateEu": "",
+            "releaseDateUs": "2024-03-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Ford Bluecruise Map Update. If your vehicle is equipped with BC: We've made updates to your BC maps expiration date to help keep things running smoothly."
+                }
+            ],
+            "inhibitMinutes": 0,
+            "inhibitRequired": false,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["GWM"],
+            "powerupVersion": "24-PU0102-SVD-FX",
+            "releaseDateEu": "",
+            "releaseDateUs": "2024-02-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "A minor change so your vehicle can easily install the more intricate updates coming in the future. (PowerBoost Only?)"
+                }
+            ],
+            "inhibitMinutes": 3,
+            "inhibitRequired": true,
+            "modelYears": [2021],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "No Name",
+            "releaseDateEu": "",
+            "releaseDateUs": "Unknown",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "Refinements have been made to help improve connectivity."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["TCU"],
+            "powerupVersion": "23-PU113-UNX-DC",
+            "releaseDateEu": "",
+            "releaseDateUs": "2024-02-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": true
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "2021-2023 23-PU1009-SS-NS Jan 2024 Group ID 1 - Software Update: Your vehicle has been updated with following: Powertrain Your vehicle's powertrain software has been updated to help prevent a possible error state where a “Stop Safely Now” message may appear. Stability Improvements Your vehicle is now enhanced with improved stability during low-state-of-charge battery conditions, and you will get more reliable warnings in the driver display when low-state-of-charge conditions exist. We have made update to your ABS calibration to optimize your vehicle performance. Approach Detection: Approach detection functionality has been added to your vehicle which recognizes when you are approaching to the vehicle with a valid key fob and will provide the welcome animation. You can enable or disable the approach detection on the Sync screen. Priority Update 23-PU1009-SS-NS ABS, PCM, BECM & SOBDMC NO 15-20"
+                }
+            ],
+            "inhibitMinutes": 20,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["ABS", "PCM", "BECM", "SOBDMC"],
+            "powerupVersion": "23-PU1009-SS-NS",
+            "releaseDateEu": "",
+            "releaseDateUs": "2024-01-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "We’ve just completed a quality improvement to your trailer position/license plate lights. There is nothing you need to do."
+                }
+            ],
+            "inhibitMinutes": 5,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["BCM"],
+            "powerupVersion": "22-PU1009-TLC-CSM2",
+            "releaseDateEu": "",
+            "releaseDateUs": "2024-01-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
+                    "text": "This update adds robustness to the Driver State Monitoring system and increases availability of BlueCruise and reduces false eyes-off warnings (only for vehicle with driver facing cameras)"
+                }
+            ],
+            "inhibitMinutes": 20,
+            "inhibitRequired": true,
+            "modelYears": [],
+            "models": ["F-150"],
+            "modifiedBy": "",
+            "modulesUpdated": ["CMR"],
+            "powerupVersion": "6.13.0",
+            "releaseDateEu": "",
+            "releaseDateUs": "2023-12-01",
+            "submitDate": "",
+            "submittedBy": "",
+            "updateMethod": "OTA",
+            "wifiRequired": false
+        },
+        {
+            "apimVersion": "",
+            "changes": [
+                {
+                    "link": "",
+                    "linkText": "",
+                    "models": [],
                     "text": "We've made background improvements to improve your vehicle's software to enhance your overall experience."
                 }
             ],
